@@ -1,5 +1,7 @@
 import Navbar from "./Navbar";
 import Search from "./Search";
+import Link from "next/link";
+import React from "react";
 
 const Header = () => (
   <div className="container-fluid header">
@@ -7,7 +9,7 @@ const Header = () => (
       <div className="col-8 d-flex flex-column">
         <div className="row mb-auto">
           <div className="col-2">
-            <img src="/logo.png" alt="Logo" />
+            <Link href="/"><a><img src="/logo.png" alt="Logo" /></a></Link>
           </div>
           <div className="col-10 pl-0">
             <div className="row h-100 d-flex align-items-center align-items-center">

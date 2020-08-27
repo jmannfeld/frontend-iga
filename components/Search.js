@@ -62,7 +62,7 @@ const Search = () => (
         height: 150px;
       }
     
-      .nav-tabs {
+      .nav-tabs, .nav-link{
         border: none;
         margin-bottom: -1px;
       }

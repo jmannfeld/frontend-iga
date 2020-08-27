@@ -26,7 +26,7 @@ const Navbar = () => (
     <li className="nav-item dropdown">
       <a className="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button">Committees</a>
       <div className="dropdown-menu">
-        <a className="dropdown-item" href="#">Action</a>
+        <Link href="/committees"><a className="dropdown-item">All</a></Link>
         <a className="dropdown-item" href="#">Another action</a>
         <a className="dropdown-item" href="#">Something else here</a>
         <div className="dropdown-divider"/>
