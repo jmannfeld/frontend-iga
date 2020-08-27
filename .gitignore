@@ -1,10 +1,8 @@
 /pyenv
-src/in1_reports/local_settings.py
 
 /.idea
 /atlassian-ide-plugin.xml
 doc/build
-src/in1_caucus_assistant/local_settings.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -96,3 +94,6 @@ ENV/
 
 # local conf file
 etc/conf.d/lsa-environment.conf
+
+# next.js build output
+.next
