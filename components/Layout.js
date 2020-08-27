@@ -3,32 +3,23 @@ import Header from "./Header";
 import React from "react";
 
 const Layout = (props) => (
-  <div className="indiana-background h-100">
+  <div className="layout h-100">
     <Head>
       <title>Indiana General Assembly, 2020 Session</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossOrigin="anonymous"/>
     </Head>
 
-    <div className="indiana-background-border mx-5 h-100 d-flex flex-column justify-content-start align-items-stretch">
+    <div className="layout-border mx-5 h-100 d-flex flex-column justify-content-start align-items-stretch">
       <Header/>
       {props.children}
     </div>
 
-    <style jsx global>{`
-      html, body {
-        height: 100%;
-      }
-      #__next {
-        height: 100%;
-      }
-     `}</style>
-
     <style jsx>{`
-      .indiana-background {
+      .layout {
         background-color: rgb(5, 24, 54);
       }
-      .indiana-background-border {
+      .layout-border {
         border-right: 5px solid #ffd54a;
         border-left: 5px solid #ffd54a;
       }
