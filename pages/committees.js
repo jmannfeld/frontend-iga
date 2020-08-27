@@ -1,10 +1,10 @@
 import Layout from "../components/Layout";
 import React from "react";
 
-const Index = () => (
+const Committees = () => (
   <Layout>
     <div className="container-fluid content h-100">
-      <h1>Website Homepage</h1>
+      <h1>Committees Homepage (List view)</h1>
     </div>
 
     <style jsx>{`
@@ -15,4 +15,4 @@ const Index = () => (
   </Layout>
 );
 
-export default Index;
+export default Committees;

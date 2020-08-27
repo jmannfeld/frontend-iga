@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from "./Header";
+import React from "react";
 
 const Layout = (props) => (
   <div className="indiana-background h-100">
