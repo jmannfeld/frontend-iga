@@ -3,7 +3,6 @@ import Link from "next/link";
 
 import CommitteeLayout from "../../components/Committees/CommitteeLayout";
 import * as standing_committees from "../../data/standing_committees.json";
-import * as interim_committees from "../../data/interim_committees";
 
 const StandingCommittees = ({committees}) => (
   <CommitteeLayout>

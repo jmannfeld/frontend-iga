@@ -3,7 +3,6 @@ import Link from "next/link";
 
 import CommitteeLayout from "../../components/Committees/CommitteeLayout";
 import * as conference_committees from "../../data/conference_committees.json";
-import * as standing_committees from "../../data/standing_committees";
 
 const ConferenceCommittees = ({committees}) => (
   <CommitteeLayout>

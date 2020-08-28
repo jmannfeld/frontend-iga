@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 
+
 import CommitteeLayout from '../../components/Committees/CommitteeLayout';
 import * as committees from '../../data/committees.json';
-import * as conference_committees from '../../data/conference_committees';
 
 const Committees = () => (
   <CommitteeLayout>
