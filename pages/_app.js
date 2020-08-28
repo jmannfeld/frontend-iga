@@ -3,9 +3,9 @@ import React from "react";
 import '../styles/global.css';
 import Layout from "../components/Layout";
 
-const App = ({Component, props}) => (
+const App = ({Component, pageProps}) => (
   <Layout>
-    <Component {...props}/>
+    <Component {...pageProps}/>
   </Layout>
 );
 

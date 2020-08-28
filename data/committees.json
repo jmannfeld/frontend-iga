@@ -1,0 +1,34 @@
+{
+  "committees": [
+    {
+      "lpid": "agriculture",
+      "name": "Agriculture",
+      "chamber": "senate",
+      "type": "standing"
+    },
+    {
+      "lpid": "agriculture_and_rural_development",
+      "name": "Agriculture and Rural Development",
+      "chamber": "house",
+      "type": "standing"
+    },
+    {
+      "lpid": "21st_century_energy_policy_development_task_force",
+      "name": "21st Century Energy Policy Development Task Force",
+      "chamber": "house",
+      "type": "interim"
+    },
+    {
+      "lpid": "conference_committee_for_sb_1",
+      "name": "Conference Committee for SB 1",
+      "chamber": "senate",
+      "type": "conference"
+    },
+    {
+      "lpid": "conference_committee_for_hb_1003",
+      "name": "Conference Committee for HB 1003",
+      "chamber": "house",
+      "type": "conference"
+    }
+  ]
+}
