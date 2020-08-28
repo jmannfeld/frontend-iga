@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import CommitteeLayout from "../../components/Committees/CommitteeLayout";
 import * as committees from "../../data/committees.json";
+import * as conference_committees from "../../data/conference_committees";
 
 const Committees = ({committees}) => (
   <CommitteeLayout>
@@ -23,8 +24,7 @@ const Committees = ({committees}) => (
   </CommitteeLayout>
 );
 
-// use this function if committees don't change (pre-rendering only during build time)
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const response = JSON.parse(JSON.stringify(committees)); // this is where we would have the API call, e.g. await fetch(...)
   return {
     props: {
@@ -32,15 +32,5 @@ export async function getStaticProps() {
     }
   }
 }
-
-// use this function if committees sometimes change (pre-rendering for every user request,
-// slower but more up-to-date)
-// export async function getServerSideProps(context) {
-//   return {
-//     props: {
-//       // props for your component
-//     }
-//   }
-// }
 
 export default Committees;

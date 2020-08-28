@@ -21,8 +21,7 @@ const InterimCommittees = ({committees}) => (
   </CommitteeLayout>
 );
 
-// use this function if committees don't change (pre-rendering only during build time)
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const response = JSON.parse(JSON.stringify(interim_committees)); // this is where we would have the API call, e.g. await fetch(...)
   return {
     props: {

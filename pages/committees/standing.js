@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import CommitteeLayout from "../../components/Committees/CommitteeLayout";
 import * as standing_committees from "../../data/standing_committees.json";
+import * as interim_committees from "../../data/interim_committees";
 
 const StandingCommittees = ({committees}) => (
   <CommitteeLayout>
@@ -23,8 +24,7 @@ const StandingCommittees = ({committees}) => (
   </CommitteeLayout>
 );
 
-// use this function if committees don't change (pre-rendering only during build time)
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const response = JSON.parse(JSON.stringify(standing_committees)); // this is where we would have the API call, e.g. await fetch(...)
   return {
     props: {
