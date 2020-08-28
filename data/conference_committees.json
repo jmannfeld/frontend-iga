@@ -1,0 +1,29 @@
+{
+  "committees": [
+    {
+      "lpid": "conference_committee_for_sb_1",
+      "name": "Conference Committee for SB 1",
+      "type": "conference"
+    },
+    {
+      "lpid": "conference_committee_for_sb_2",
+      "name": "Conference Committee for SB 2",
+      "type": "conference"
+    },
+    {
+      "lpid": "conference_committee_for_sb_3",
+      "name": "Conference Committee for SB 3",
+      "type": "conference"
+    },
+    {
+      "lpid": "conference_committee_for_sb_4",
+      "name": "Conference Committee for SB 4",
+      "type": "conference"
+    },
+    {
+      "lpid": "conference_committee_for_hb_1003",
+      "name": "Conference Committee for HB 1003",
+      "type": "conference"
+    }
+  ]
+}
