@@ -45,7 +45,7 @@ const Navigator = () => (
         <a className="dropdown-item">Conference</a>
       </Link>
       <Link href="/faq">
-        <a className="dropdown-item wide">Witness Guidlines and FAQs</a>
+        <a className="dropdown-item wide">Witness Guidelines and FAQs</a>
       </Link>
     </div>
     <style jsx>{`
