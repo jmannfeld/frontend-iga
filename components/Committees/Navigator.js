@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import React from 'react';
+import Link from './NavigatorLink';
 import * as sessionYears from '../../data/session_years.json';
 
 const currentSession = sessionYears.years.filter(year => year.active)[0];
@@ -29,7 +29,7 @@ const Navigator = () => (
       </div>
     </div>
     <div className="navigator-list">
-      <Link href="/committees/standing">
+      <Link href="/committees/standing" activeClassName="active">
         <a className="dropdown-item">Standing</a>
       </Link>
       <Link href="/committees/standing">
@@ -38,10 +38,10 @@ const Navigator = () => (
       <Link href="/committees/standing">
         <a className="dropdown-item indented">Seante</a>
       </Link>
-      <Link href="/committees/interim">
+      <Link href="/committees/interim" activeClassName="active">
         <a className="dropdown-item">Interim</a>
       </Link>
-      <Link href="/committees/conference">
+      <Link href="/committees/conference" activeClassName="active">
         <a className="dropdown-item">Conference</a>
       </Link>
       <Link href="/faq">
@@ -64,6 +64,13 @@ const Navigator = () => (
       }
       .dropdown-item {
         white-space: pre-wrap;
+      }
+      .active:after {
+        content: '';
+      }
+      .dropdown-item.active,
+      .dropdown-item:active {
+        background-color: #28256feb;
       }
     `}</style>
   </div>
