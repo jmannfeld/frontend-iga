@@ -1,5 +1,12 @@
-import '../styles/global.css';
+import React from "react";
 
-const App = ({Component, props}) => <Component {...props}/>;
+import '../styles/global.css';
+import Layout from "../components/Layout";
+
+const App = ({Component, props}) => (
+  <Layout>
+    <Component {...props}/>
+  </Layout>
+);
 
 export default App;
