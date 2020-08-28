@@ -27,10 +27,9 @@ const Navbar = () => (
       <a className="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button">Committees</a>
       <div className="dropdown-menu">
         <Link href="/committees"><a className="dropdown-item">All</a></Link>
-        <a className="dropdown-item" href="#">Another action</a>
-        <a className="dropdown-item" href="#">Something else here</a>
-        <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Separated link</a>
+        <Link href="/committees/standing"><a className="dropdown-item">Standing</a></Link>
+        <Link href="/committees/interim"><a className="dropdown-item">Interim</a></Link>
+        <Link href="/committees/conference"><a className="dropdown-item">Conference</a></Link>
       </div>
     </li>
     <li className="nav-item dropdown">
