@@ -5,7 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const Layout = (props) => (
-  <div className="layout d-flex align-items-stretch">
+  <div className="layout">
     <Head>
       <title>Indiana General Assembly, 2020 Session</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -22,6 +22,7 @@ const Layout = (props) => (
       .layout {
         background-color: rgb(5, 24, 54);
         min-height: 100vh;
+        min-width: 100vh;
       }
       .layout-border {
         border-right: 5px solid #ffd54a;
