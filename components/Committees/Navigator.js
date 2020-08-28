@@ -7,10 +7,10 @@ const pastSessions = sessionYears.years.filter(year => !year.active);
 
 const Navigator = () => (
   <div className="navigator h-100 px-3 py-3">
-    <h1 className="navigator-title">Committee Navigator</h1>
+    <h1 className="navigator-title mb-3 text-center">Committee Navigator</h1>
     <div className="dropdown">
       <a
-        className="btn btn-secondary dropdown-toggle"
+        className="btn btn-dropdown dropdown-toggle w-100"
         href="#"
         role="button"
         id="dropdownMenuLink"
@@ -28,7 +28,9 @@ const Navigator = () => (
         ))}
       </div>
     </div>
-    <div className="navigator-list">
+
+    <hr/>
+    <div>
       <Link href="/committees/standing" activeClassName="active">
         <a className="dropdown-item">Standing</a>
       </Link>
@@ -36,7 +38,7 @@ const Navigator = () => (
         <a className="dropdown-item indented">House</a>
       </Link>
       <Link href="/committees/standing">
-        <a className="dropdown-item indented">Seante</a>
+        <a className="dropdown-item indented">Senate</a>
       </Link>
       <Link href="/committees/interim" activeClassName="active">
         <a className="dropdown-item">Interim</a>
@@ -44,6 +46,7 @@ const Navigator = () => (
       <Link href="/committees/conference" activeClassName="active">
         <a className="dropdown-item">Conference</a>
       </Link>
+      <hr/>
       <Link href="/faq">
         <a className="dropdown-item wide">Witness Guidelines and FAQs</a>
       </Link>
@@ -54,23 +57,28 @@ const Navigator = () => (
       }
       .navigator-title {
         font-size: 1.15rem;
-        margin-bottom: 0.75rem;
-      }
-      .navigator-list {
-        padding-top: 0.5rem;
       }
       .indented {
         padding-left: 3rem;
       }
+      .btn-dropdown {
+        background-color: rgb(203, 206, 214);
+      }
       .dropdown-item {
         white-space: pre-wrap;
+        color: rgb(5, 24, 54);
+        margin-top: .5rem;
+        margin-bottom: .5rem;
       }
       .active:after {
         content: '';
       }
       .dropdown-item.active,
-      .dropdown-item:active {
-        background-color: #28256feb;
+      .dropdown-item:active,
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        background-color: rgb(203, 206, 214);
+        color: rgb(5, 24, 54);
       }
     `}</style>
   </div>

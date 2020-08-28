@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from "react";
 
 import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout = (props) => (
   <div className="layout h-100">
@@ -14,6 +15,7 @@ const Layout = (props) => (
     <div className="layout-border mx-5 h-100 d-flex flex-column justify-content-start align-items-stretch">
       <Header/>
       {props.children}
+      <Footer/>
     </div>
 
     <style jsx>{`
