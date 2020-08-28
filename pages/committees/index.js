@@ -9,15 +9,15 @@ const Committees = ({committees}) => (
     <h1>Committees Homepage Index (List view)</h1>
     <ul>
       {committees.committees.map(({ lpid, name, chamber, type }) => (
-        <Link href={"/committees/" + lpid}><a><li key={lpid}>
-          {lpid}
+        <li key={lpid}>
+          <Link href="/committees/[lpid]" as={`/committees/${lpid}`}><a>{lpid}</a></Link>
           <br />
           {name}
           <br />
           {chamber}
           <br />
           {type}
-        </li></a></Link>
+        </li>
       ))}
     </ul>
   </CommitteeLayout>
