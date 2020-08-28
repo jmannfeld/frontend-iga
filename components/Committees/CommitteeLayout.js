@@ -8,7 +8,7 @@ const CommitteeLayout = props => (
     <Head>
       <title>Committees - Indiana General Assembly, 2020 Session</title>
     </Head>
-    <div className="content h-100">
+    <div className="container-fluid content h-100 py-3">
       <div className="row h-100">
         <div className="col-2">
           <Navigator />
