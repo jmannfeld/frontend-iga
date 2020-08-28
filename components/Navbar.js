@@ -5,7 +5,6 @@ import * as committees from "../data/committees.json";
 import * as standing_committees from "../data/standing_committees.json";
 import * as interim_committees from "../data/interim_committees.json";
 import * as conference_committees from "../data/conference_committees.json";
-import CommitteeLayout from "../pages/committees";
 
 const Navbar = () => (
   <ul className="nav nav-tabs nav-fill">
