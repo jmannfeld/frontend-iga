@@ -1,11 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 
-
 import CommitteeLayout from '../../components/Committees/CommitteeLayout';
-import * as committees from '../../data/committees.json';
+import * as committeesList from '../../data/committees.json';
 
-const Committees = () => (
+const Committees = ({committees}) => (
   <CommitteeLayout>
     <h1>Committees Homepage Index (List view)</h1>
     <ul>
@@ -27,7 +26,7 @@ const Committees = () => (
 );
 
 export async function getServerSideProps() {
-  const response = JSON.parse(JSON.stringify(committees)); // this is where we would have the API call, e.g. await fetch(...)
+  const response = JSON.parse(JSON.stringify(committeesList)); // this is where we would have the API call, e.g. await fetch(...)
   return {
     props: {
       committees: response.default,

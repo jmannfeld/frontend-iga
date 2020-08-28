@@ -46,6 +46,9 @@ const Navigator = () => (
       <Link href="/committees/conference" activeClassName="active">
         <a className="dropdown-item">Conference</a>
       </Link>
+      <Link href="/committees/grid">
+        <a className="dropdown-item indented">Committee Grid</a>
+      </Link>
       <hr/>
       <Link href="/faq">
         <a className="dropdown-item wide">Witness Guidelines and FAQs</a>
