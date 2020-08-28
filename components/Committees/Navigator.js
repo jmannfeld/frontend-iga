@@ -53,6 +53,18 @@ const Navigator = () => (
       <Link href="/faq">
         <a className="dropdown-item wide">Witness Guidelines and FAQs</a>
       </Link>
+      <Link href="#">
+        <a className="dropdown-item wide">Senate Committee Schedule</a>
+      </Link>
+      <Link href="#">
+        <a className="dropdown-item wide">House Committee Schedule</a>
+      </Link>
+      <Link href="#">
+        <a className="dropdown-item wide">Senate Conference Committee Schedule</a>
+      </Link>
+      <Link href="#">
+        <a className="dropdown-item wide">House Conference Committee Schedule</a>
+      </Link>
     </div>
     <style jsx>{`
       .navigator {

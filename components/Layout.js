@@ -5,14 +5,14 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const Layout = (props) => (
-  <div className="layout h-100">
+  <div className="layout d-flex align-items-stretch">
     <Head>
       <title>Indiana General Assembly, 2020 Session</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossOrigin="anonymous"/>
     </Head>
 
-    <div className="layout-border mx-5 h-100 d-flex flex-column justify-content-start align-items-stretch">
+    <div className="layout-border mx-5 d-flex flex-column justify-content-start align-items-stretch">
       <Header/>
       {props.children}
       <Footer/>
@@ -21,6 +21,7 @@ const Layout = (props) => (
     <style jsx>{`
       .layout {
         background-color: rgb(5, 24, 54);
+        min-height: 100vh;
       }
       .layout-border {
         border-right: 5px solid #ffd54a;
