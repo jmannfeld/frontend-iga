@@ -1,6 +1,7 @@
 import Head from 'next/head';
-import Header from "./Header";
 import React from "react";
+
+import Header from "./Header";
 
 const Layout = (props) => (
   <div className="layout h-100">
