@@ -1,7 +1,8 @@
-import Navbar from "./Navbar";
-import Search from "./Search";
 import Link from "next/link";
 import React from "react";
+
+import Navbar from "./Navbar";
+import Search from "./Search";
 
 const Header = () => (
   <div className="container-fluid header">
