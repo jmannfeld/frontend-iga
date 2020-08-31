@@ -175,9 +175,6 @@ const Navbar = (props) => (
         text-align: center;
 
       }
-      .odd {
-        background-color: red;
-      }
     `}</style>
 
   </ul>
