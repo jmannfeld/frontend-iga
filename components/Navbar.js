@@ -36,7 +36,8 @@ const Navbar = (props) => (
                       <thead className="thead-light">
                         <tr><th scope="col"><h6>House</h6></th></tr>
                       </thead>
-                    {splitHouseAndSenateCommittees(props.standing_committees.default.committees)[0].map(({ lpid, name}) => (
+                    {props.standing_committees.default.committees
+                        .filter(committee => committee["chamber"] === "house").map(({ lpid, name}) => (
                         <tr className="list-group-item-action">
                             <td className="nav-item" key={lpid}>
                               <Link href="/committees/[lpid]" as={`/committees/${lpid}`}><a className="dropdown-item text-left">{name}</a></Link>
@@ -48,7 +49,8 @@ const Navbar = (props) => (
                       <thead className="thead-light">
                         <tr><th scope="col"><h6>Senate</h6></th></tr>
                       </thead>
-                    {splitHouseAndSenateCommittees(props.standing_committees.default.committees)[1].map(({ lpid, name}) => (
+                    {props.standing_committees.default.committees
+                        .filter(committee => committee["chamber"] === "senate").map(({ lpid, name}) => (
                         <tr className="list-group-item-action">
                             <td className="nav-item" key={lpid}>
                               <Link href="/committees/[lpid]" as={`/committees/${lpid}`}><a className="dropdown-item text-left">{name}</a></Link>
@@ -179,18 +181,5 @@ const Navbar = (props) => (
 
   </ul>
 );
-
-function splitHouseAndSenateCommittees(standing_committees) {
-    let houseCommittees = [];
-    let senateCommittees = [];
-    standing_committees.map((committee) => {
-        if (committee["chamber"] === "house") {
-            houseCommittees.push(committee);
-        } else {
-            senateCommittees.push(committee);
-        }
-    });
-    return [houseCommittees, senateCommittees];
-}
 
 export default Navbar;

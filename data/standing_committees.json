@@ -41,8 +41,8 @@
     ,
     {
       "lpid": "elections_1_senate",
-      "name": "Ethics",
-      "chamber": "Elections",
+      "name": "Elections",
+      "chamber": "senate",
       "type": "standing"
     }
   ]
