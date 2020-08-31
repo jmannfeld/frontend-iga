@@ -1,8 +1,6 @@
 {
-  "committee": {
-    "lpid": "agriculture",
-    "name": "Agriculture",
-    "chamber": "senate",
-    "type": "standing"
-  }
+  "lpid": "agriculture",
+  "name": "Agriculture",
+  "chamber": "senate",
+  "type": "standing"
 }
