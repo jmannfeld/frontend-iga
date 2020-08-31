@@ -25,11 +25,11 @@ const Navbar = (props) => (
     </li>
     <li className="nav-item dropdown dropdown-submenu">
       <a className="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button">Committees</a>
-      <div className="dropdown-menu list-group">
-          <div className="all-committees list-group-item">
+      <div className="dropdown-menu">
+          <div className="all-committees">
             <Link href="/committees"><a className="dropdown-item">All</a></Link>
           </div>
-          <div className="standing-committees list-group-item">
+          <div className="standing-committees">
             <Link href="/committees/standing"><a className="dropdown-item">Standing</a></Link>
               <div className="sub-dropdown dropdown-menu committee-tables">
                   <table className="table table-striped house-committees">
@@ -58,7 +58,7 @@ const Navbar = (props) => (
                   </table>
               </div>
           </div>
-          <div className="interim-committees list-group-item">
+          <div className="interim-committees">
             <Link href="/committees/interim"><a className="dropdown-item">Interim</a></Link>
               <ul className="sub-dropdown dropdown-menu list-group">
                 {props.interim_committees.default.committees.map(({ lpid, name}) => (
@@ -68,7 +68,7 @@ const Navbar = (props) => (
                 ))}
               </ul>
           </div>
-          <div className="conference-committees list-group-item">
+          <div className="conference-committees">
             <Link href="/committees/conference"><a className="dropdown-item">Conference</a></Link>
           </div>
       </div>
