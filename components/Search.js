@@ -1,19 +1,27 @@
-import React from "react";
+import React from 'react';
 
 const Search = () => (
   <div className="search py-2 d-flex flex-column">
     <ul className="nav nav-tabs nav-fill" id="searchTab" role="tablist">
       <li className="nav-item">
-        <a className="nav-link active" data-toggle="tab" href="#search">Search</a>
+        <a className="nav-link active" data-toggle="tab" href="#search">
+          Search
+        </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" data-toggle="tab" href="#code">Code</a>
+        <a className="nav-link" data-toggle="tab" href="#code">
+          Code
+        </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" data-toggle="tab" href="#bills">Bills</a>
+        <a className="nav-link" data-toggle="tab" href="#bills">
+          Bills
+        </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" data-toggle="tab" href="#legislators">Legislators</a>
+        <a className="nav-link" data-toggle="tab" href="#legislators">
+          Legislators
+        </a>
       </li>
     </ul>
 
@@ -26,15 +34,29 @@ const Search = () => (
             </div>
             <div className="col-12 d-flex flex-column justify-content-center">
               <div className="input-group input-group-sm">
-                <input type="text" className="form-control btn-outline-secondary" placeholder="Search the current session" />
+                <input
+                  type="text"
+                  className="form-control btn-outline-secondary"
+                  placeholder="Search the current session"
+                />
                 <div className="input-group-append">
                   <button className="btn btn-outline-secondary" type="button">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-search" fill="currentColor"
-                         xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd"
-                            d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-                      <path fill-rule="evenodd"
-                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                    <svg
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 16 16"
+                      className="bi bi-search"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"
+                      />
+                      <path
+                        fillRule="evenodd"
+                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
+                      />
                     </svg>
                   </button>
                 </div>
@@ -61,34 +83,39 @@ const Search = () => (
       .search {
         height: 150px;
       }
-    
-      .nav-tabs, .nav-link{
+
+      .nav-tabs,
+      .nav-link {
         border: none;
         margin-bottom: -1px;
       }
-    
-      .nav-link.active, .nav-link:hover {
+
+      .nav-link.active,
+      .nav-link:hover {
         background-color: rgb(203, 206, 214);
         border: none;
         color: rgb(5, 24, 54);
       }
-    
+
       .tab-content {
         background-color: rgb(203, 206, 214);
         border: none;
-        border-bottom-right-radius: .25rem;
-        border-bottom-left-radius: .25rem;
+        border-bottom-right-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
       }
-      
+
       .font-small {
         font-size: 80%;
       }
-      
-      a, .bi-search, btn-outline-secondary {
+
+      a,
+      .bi-search,
+      btn-outline-secondary {
         color: rgb(5, 24, 54);
       }
-      
-      .btn-outline-secondary:hover, .btn-outline-secondary:not(:disabled):not(.disabled):active {
+
+      .btn-outline-secondary:hover,
+      .btn-outline-secondary:not(:disabled):not(.disabled):active {
         background-color: white;
         color: #6c757d;
       }
