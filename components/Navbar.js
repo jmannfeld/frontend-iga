@@ -4,8 +4,8 @@ import React from "react";
 const Navbar = (props) => (
   <ul className="nav nav-tabs nav-fill">
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Information</a>
-      <div className="dropdown-menu">
+      <Link href="/"><a className="nav-link" role="button">Information</a></Link>
+      <div className="dropdown-menu nav-display">
         <a className="dropdown-item" href="#">Action</a>
         <a className="dropdown-item" href="#">Another action</a>
         <a className="dropdown-item" href="#">Something else here</a>
@@ -14,8 +14,8 @@ const Navbar = (props) => (
       </div>
     </li>
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Session</a>
-      <div className="dropdown-menu">
+      <Link href="/"><a className="nav-link" role="button">Session</a></Link>
+      <div className="dropdown-menu nav-display">
         <a className="dropdown-item" href="#">Action</a>
         <a className="dropdown-item" href="#">Another action</a>
         <a className="dropdown-item" href="#">Something else here</a>
@@ -23,12 +23,10 @@ const Navbar = (props) => (
         <a className="dropdown-item" href="#">Separated link</a>
       </div>
     </li>
-    <li className="nav-item dropdown dropdown-submenu">
-      <a className="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button">Committees</a>
-      <div className="dropdown-menu">
-          <div className="all-committees">
-            <Link href="/committees"><a className="dropdown-item">All</a></Link>
-          </div>
+    <li className="nav-item dropdown">
+      <Link href="/committees"><a className="nav-link active" role="button">Committees</a></Link>
+      <div className="dropdown-menu nav-display">
+
           <div className="standing-committees">
             <Link href="/committees/standing"><a className="dropdown-item">Standing</a></Link>
               <div className="sub-dropdown dropdown-menu committee-tables">
@@ -76,8 +74,8 @@ const Navbar = (props) => (
       </div>
     </li>
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Legislation</a>
-      <div className="dropdown-menu">
+      <Link href="/"><a className="nav-link" role="button">Legislation</a></Link>
+      <div className="dropdown-menu nav-display">
         <a className="dropdown-item" href="#">Action</a>
         <a className="dropdown-item" href="#">Another action</a>
         <a className="dropdown-item" href="#">Something else here</a>
@@ -86,8 +84,8 @@ const Navbar = (props) => (
       </div>
     </li>
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Laws</a>
-      <div className="dropdown-menu">
+      <Link href="/"><a className="nav-link" role="button">Laws</a></Link>
+      <div className="dropdown-menu nav-display">
         <a className="dropdown-item" href="#">Action</a>
         <a className="dropdown-item" href="#">Another action</a>
         <a className="dropdown-item" href="#">Something else here</a>
@@ -96,8 +94,8 @@ const Navbar = (props) => (
       </div>
     </li>
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Session</a>
-      <div className="dropdown-menu">
+      <Link href="/"><a className="nav-link" role="button">Session</a></Link>
+      <div className="dropdown-menu nav-display">
         <a className="dropdown-item" href="#">Action</a>
         <a className="dropdown-item" href="#">Another action</a>
         <a className="dropdown-item" href="#">Something else here</a>
@@ -106,8 +104,8 @@ const Navbar = (props) => (
       </div>
     </li>
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Publications</a>
-      <div className="dropdown-menu">
+      <Link href="/"><a className="nav-link" role="button">Publications</a></Link>
+      <div className="dropdown-menu nav-display">
         <a className="dropdown-item" href="#">Action</a>
         <a className="dropdown-item" href="#">Another action</a>
         <a className="dropdown-item" href="#">Something else here</a>
@@ -116,8 +114,8 @@ const Navbar = (props) => (
       </div>
     </li>
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">Login</a>
-      <div className="dropdown-menu">
+      <Link href="/"><a className="nav-link" role="button">Login</a></Link>
+      <div className="dropdown-menu nav-display">
         <a className="dropdown-item" href="#">Action</a>
         <a className="dropdown-item" href="#">Another action</a>
         <a className="dropdown-item" href="#">Something else here</a>
@@ -140,6 +138,10 @@ const Navbar = (props) => (
       
       a {
         color: rgb(5, 24, 54);
+      }
+
+      .nav-item:hover .nav-display {
+        display: block;
       }
 
       .sub-dropdown {
