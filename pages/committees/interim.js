@@ -6,7 +6,7 @@ import * as interim_committees from "../../data/interim_committees.json";
 
 const InterimCommittees = ({committees}) => (
   <CommitteeLayout>
-    <h1>Committees Homepage Index (List view)</h1>
+    <h1>Interim Committees Homepage Index (List view)</h1>
     <ul>
       {committees.committees.map(({ lpid, name, chamber, type }) => (
         <li key={lpid}>

@@ -6,7 +6,7 @@ import * as standing_committees from "../../data/standing_committees.json";
 
 const StandingCommittees = ({committees}) => (
   <CommitteeLayout>
-    <h1>Committees Homepage Index (List view)</h1>
+    <h1>Standing Committees Homepage Index (List view)</h1>
     <ul>
       {committees.committees.map(({ lpid, name, chamber, type }) => (
         <li key={lpid}>
