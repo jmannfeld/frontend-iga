@@ -3,21 +3,25 @@
     {
       "lpid": "21st_century_energy_policy_development_task_force",
       "name": "21st Century Energy Policy Development Task Force",
+      "chamber": "",
       "type": "interim"
     },
     {
       "lpid": "i_agriculture_and_natural_resources_interim_study_committee_on",
       "name": "Interim Study Committee on Agriculture and Natural Resources",
+      "chamber": "",
       "type": "interim"
     },
     {
       "lpid": "i_code_revision_commission",
       "name": "Code Revision Commission",
+      "chamber": "",
       "type": "interim"
     },
     {
       "lpid": "i_commerce_and_economic_development_interim_study_committee_on",
       "name": "Interim Study Committee on Commerce and Economic Development",
+      "chamber": "",
       "type": "interim"
     }
   ]

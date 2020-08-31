@@ -38,6 +38,10 @@ const Footer = () => (
         font-size: .8rem;
         color: rgb(5, 24, 54);
       }
+      
+      .nav-link:hover {
+        background-color: rgb(203,206,214);
+      }
     `}</style>
   </div>
 );

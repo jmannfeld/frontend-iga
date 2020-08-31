@@ -6,7 +6,7 @@ import * as conference_committees from "../../data/conference_committees.json";
 
 const ConferenceCommittees = ({committees}) => (
   <CommitteeLayout>
-    <h1>Committees Homepage Index (List view)</h1>
+    <h1>Conference Committees Homepage Index (List view)</h1>
     <ul>
       {committees.committees.map(({ lpid, name, chamber, type }) => (
         <li key={lpid}>
