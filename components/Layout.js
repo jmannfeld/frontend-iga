@@ -13,7 +13,7 @@ const Layout = (props) => (
     </Head>
 
     <div className="layout-border mx-5 h-100 d-flex flex-column justify-content-start align-items-stretch">
-      <Header/>
+      <Header standing_committees={props.standing_committees} interim_committees={props.interim_committees}/>
       {props.children}
       <Footer/>
     </div>

@@ -14,7 +14,7 @@
     },
     {
       "lpid": "ethics_1_house",
-      "name": "ethics",
+      "name": "Ethics",
       "chamber": "house",
       "type": "standing"
     },
@@ -22,6 +22,27 @@
       "lpid": "ethics_1_senate",
       "name": "Ethics",
       "chamber": "senate",
+      "type": "standing"
+    }
+    ,
+    {
+      "lpid": "rules_and_legislative_1_senate",
+      "name": "Rules and Legislative",
+      "chamber": "senate",
+      "type": "standing"
+    }
+    ,
+    {
+      "lpid": "judicial_1_senate",
+      "name": "Judicial",
+      "chamber": "house",
+      "type": "standing"
+    }
+    ,
+    {
+      "lpid": "elections_1_senate",
+      "name": "Ethics",
+      "chamber": "Elections",
       "type": "standing"
     }
   ]
