@@ -1,7 +1,8 @@
 import React from 'react';
 import App from 'next/app';
 
-import '../styles/global.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/global.scss';
 
 import Layout from '../components/Layout';
 import {Provider} from "../components/Utils/Context";

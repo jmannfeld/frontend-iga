@@ -36,7 +36,7 @@ const Header = () => (
 
     <style jsx>{`
       .header {
-        background-color: rgb(213, 215, 222);
+        background-color: #c9cad8;
       }
       
       .header-name {

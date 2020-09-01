@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from './NavigatorLink';
+import { FaRegFilePdf } from 'react-icons/fa';
 import * as sessionYears from '../../data/session_years.json';
 
 const currentSession = sessionYears.years.filter(year => year.active)[0];
@@ -28,9 +29,9 @@ const Navigator = () => (
         ))}
       </div>
     </div>
-
-    <hr/>
+    <hr />
     <div>
+    <h5>Filter by Type</h5>
       <Link href="/committees/standing" activeClassName="active">
         <a className="dropdown-item">Standing</a>
       </Link>
@@ -49,32 +50,33 @@ const Navigator = () => (
       <Link href="/committees/grid">
         <a className="dropdown-item indented">Committee Grid</a>
       </Link>
-      <hr/>
+      <hr />
+      <h5>Schedules</h5>
+      <Link href="#">
+        <a className="dropdown-item misc">House Committee Schedule <FaRegFilePdf /></a>
+      </Link>
+      <Link href="#">
+        <a className="dropdown-item misc">Senate Committee Schedule <FaRegFilePdf /></a>
+      </Link>
+      <Link href="#">
+        <a className="dropdown-item misc">House Conference Committee Schedule <FaRegFilePdf /></a>
+      </Link>
+      <Link href="#">
+        <a className="dropdown-item misc">Senate Conference Committee Schedule <FaRegFilePdf /></a>
+      </Link>
+      <hr />
       <Link href="/faq">
-        <a className="dropdown-item wide">Witness Guidelines and FAQs</a>
-      </Link>
-      <Link href="#">
-        <a className="dropdown-item wide">Senate Committee Schedule</a>
-      </Link>
-      <Link href="#">
-        <a className="dropdown-item wide">House Committee Schedule</a>
-      </Link>
-      <Link href="#">
-        <a className="dropdown-item wide">Senate Conference Committee Schedule</a>
-      </Link>
-      <Link href="#">
-        <a className="dropdown-item wide">House Conference Committee Schedule</a>
+        <a className="dropdown-item misc">Witness Guidelines and FAQs</a>
       </Link>
     </div>
     <style jsx>{`
       .navigator {
-        background-color: rgb(213, 215, 222);
+        background-color: #04193617;
+        border-radius: 5px;
       }
       .navigator-title {
         font-size: 1.15rem;
-      }
-      .indented {
-        padding-left: 3rem;
+        font-weight: 600;
       }
       .btn-dropdown {
         background-color: rgb(203, 206, 214);
@@ -82,8 +84,18 @@ const Navigator = () => (
       .dropdown-item {
         white-space: pre-wrap;
         color: rgb(5, 24, 54);
-        margin-top: .5rem;
-        margin-bottom: .5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        padding: 0.25rem 1.0rem;
+      }
+      .indented {
+        padding-left: 3rem;
+        font-weight: 400;
+      }
+      .misc {
+        font-weight: 400;
       }
       .active:after {
         content: '';
@@ -92,8 +104,8 @@ const Navigator = () => (
       .dropdown-item:active,
       .dropdown-item:hover,
       .dropdown-item:focus {
-        background-color: rgb(203, 206, 214);
-        color: rgb(5, 24, 54);
+        background-color: #114089;
+        color: white;
       }
     `}</style>
   </div>
