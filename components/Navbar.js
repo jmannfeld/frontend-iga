@@ -189,16 +189,6 @@ const Navbar = () => (
       </div>
     </li>
     <li className="nav-item dropdown">
-      <Link href="/"><a className="nav-link" role="button">Session</a></Link>
-      <div className="dropdown-menu nav-display">
-        <a className="dropdown-item" href="#">Action</a>
-        <a className="dropdown-item" href="#">Another action</a>
-        <a className="dropdown-item" href="#">Something else here</a>
-        <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Separated link</a>
-      </div>
-    </li>
-    <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Publications</a></Link>
       <div className="dropdown-menu nav-display">
         <div className="interim-committees">
