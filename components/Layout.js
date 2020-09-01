@@ -12,10 +12,7 @@ const Layout = props => (
     </Head>
 
     <div className="layout-border mx-5 d-flex flex-column justify-content-start align-items-stretch">
-      <Header
-        standing_committees={props.standing_committees}
-        interim_committees={props.interim_committees}
-      />
+      <Header />
       {props.children}
       <Footer />
     </div>
@@ -29,6 +26,7 @@ const Layout = props => (
       .layout-border {
         border-right: 5px solid #ffd54a;
         border-left: 5px solid #ffd54a;
+        min-height: 100vh;
       }
     `}</style>
   </div>
