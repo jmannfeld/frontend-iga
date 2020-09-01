@@ -154,7 +154,7 @@ const Navbar = () => (
               <ul className="sub-dropdown dropdown-menu list-group">
                 <Context.Consumer>
                   {(context) => (
-                    context.state.interim_committees.map(({lpid, name}) => (
+                    context.state.interim_legislative_committees.map(({lpid, name}) => (
                       <li className="nav-item list-group-item list-group-item-action" key={lpid}>
                         <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
                           <a className="dropdown-item text-left">{name}</a>
