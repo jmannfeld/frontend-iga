@@ -4,7 +4,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Search from "./Search";
 
-const Header = (props) => (
+const Header = () => (
   <div className="container-fluid header">
     <div className="row">
       <div className="col-8 d-flex flex-column">
@@ -25,7 +25,7 @@ const Header = (props) => (
         </div>
         <div className="row">
           <div className="col">
-            <Navbar standing_committees={props.standing_committees} interim_committees={props.interim_committees}/>
+            <Navbar />
           </div>
         </div>
       </div>
