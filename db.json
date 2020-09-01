@@ -37,28 +37,98 @@
       "location": "Room 130",
       "bills": [
         {
-          "name": "SB 185",
+          "name": "SB 233",
           "authors": [
             "/legislative/2020/legislators/legislator_ron_alting_538/"
           ],
           "sponsors": [],
           "authors_names": ["Sen. Ron Alting"],
           "sponsors_names": [],
-          "url": "/legislative/2020/bills/senate/185",
+          "url": "/legislative/2020/bills/senate/233",
           "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
         },
         {
-          "name": "SB 218",
+          "name": "SB 145",
           "authors": [
             "/legislative/2020/legislators/legislator_james_buck_124/"
           ],
           "sponsors": [],
           "authors_names": ["Sen. James Buck"],
           "sponsors_names": [],
-          "url": "/legislative/2020/bills/senate/218",
+          "url": "/legislative/2020/bills/senate/145",
           "status": "In Committee"
         }
       ]
+    }
+  ],
+  "bills": [
+    {
+      "url": "/legislative/2020/bills/house/1119",
+      "name": "HB 1119",
+      "description": "Regulation of pesticide use and application.",
+      "authors": ["/legislative/2020/legislators/legislator_don_lehe_698/"],
+      "sponsors": [
+        "/legislative/2020/legislators/legislator_jean_leising_136/"
+      ],
+      "dead": 1,
+      "authors_names": ["Rep. Don Lehe"],
+      "sponsors_names": ["Sen. Jean Leising"]
+    },
+    {
+      "url": "/legislative/2020/bills/senate/185",
+      "name": "SB 185",
+      "description": "Sale of companion animals.",
+      "authors": [
+        "/legislative/2020/legislators/legislator_ron_alting_538/",
+        "/legislative/2020/legislators/legislator_mike_bohacek_1/",
+        "/legislative/2020/legislators/legislator_blake_doriot_1/"
+      ],
+      "sponsors": [
+        "/legislative/2020/legislators/legislator_sharon_negele_1110/"
+      ],
+      "dead": 1,
+      "authors_names": [
+        "Sen. Ron Alting",
+        "Sen. Mike Bohacek",
+        "Sen. Blake Doriot"
+      ],
+      "sponsors_names": ["Rep. Sharon Negele"]
+    },
+    {
+      "url": "/legislative/2020/bills/senate/218",
+      "name": "SB 218",
+      "description": "Chicken hens.",
+      "authors": ["/legislative/2020/legislators/legislator_james_buck_124/"],
+      "sponsors": [],
+      "dead": 1,
+      "authors_names": ["Sen. James Buck"],
+      "sponsors_names": []
+    },
+    {
+      "url": "/legislative/2020/bills/senate/226",
+      "name": "SB 226",
+      "description": "Equine dentistry.",
+      "authors": [
+        "/legislative/2020/legislators/legislator_philip_boots_865/",
+        "/legislative/2020/legislators/legislator_james_tomes_1041/"
+      ],
+      "sponsors": ["/legislative/2020/legislators/legislator_beau_baird_1/"],
+      "dead": 1,
+      "authors_names": ["Sen. Philip Boots", "Sen. James Tomes"],
+      "sponsors_names": ["Rep. Beau Baird"]
+    },
+    {
+      "url": "/legislative/2020/bills/senate/438",
+      "name": "SB 438",
+      "description": "Regulation of pesticide use and application.",
+      "authors": [
+        "/legislative/2020/legislators/legislator_jean_leising_136/",
+        "/legislative/2020/legislators/legislator_susan_glick_1048/"
+      ],
+      "sponsors": ["/legislative/2020/legislators/legislator_don_lehe_698/"],
+      "dead": 0,
+      "authors_names": ["Sen. Jean Leising", "Sen. Susan Glick"],
+      "sponsors_names": ["Rep. Don Lehe"]
     }
   ]
 }

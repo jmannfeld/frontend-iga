@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React from "react";
+import {Context} from "./Utils/Context";
 
-const Navbar = (props) => (
+const Navbar = () => (
   <ul className="nav nav-tabs nav-fill">
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Information</a></Link>
@@ -111,41 +112,57 @@ const Navbar = (props) => (
             <Link href="/committees/standing"><a className="dropdown-item">Standing</a></Link>
               <div className="sub-dropdown dropdown-menu committee-tables">
                   <table className="table table-striped house-committees">
-                      <thead className="thead-light">
-                        <tr><th scope="col"><h6>House</h6></th></tr>
-                      </thead>
-                    {props.standing_committees.default.committees
-                        .filter(committee => committee["chamber"] === "house").map(({ lpid, name}) => (
-                        <tr className="list-group-item-action">
+                    <thead className="thead-light">
+                      <tr><th scope="col"><h6>House</h6></th></tr>
+                    </thead>
+                    <Context.Consumer>
+                      {(context) => (
+                        context.state.house_standing_committees.map(({ lpid, name}) => (
+                          <tr className="list-group-item-action">
                             <td className="nav-item" key={lpid}>
-                              <Link href="/committees/[lpid]" as={`/committees/${lpid}`}><a className="dropdown-item text-left">{name}</a></Link>
+                              <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
+                                <a className="dropdown-item text-left">{name}</a>
+                              </Link>
                             </td>
-                        </tr>
-                    ))}
+                          </tr>
+                        ))
+                      )}
+                    </Context.Consumer>
                   </table>
                   <table className="table table-striped senate-committees">
-                      <thead className="thead-light">
-                        <tr><th scope="col"><h6>Senate</h6></th></tr>
-                      </thead>
-                    {props.standing_committees.default.committees
-                        .filter(committee => committee["chamber"] === "senate").map(({ lpid, name}) => (
-                        <tr className="list-group-item-action">
+                    <thead className="thead-light">
+                      <tr><th scope="col"><h6>Senate</h6></th></tr>
+                    </thead>
+                    <Context.Consumer>
+                      {(context) => (
+                        context.state.senate_standing_committees.map(({ lpid, name}) => (
+                          <tr className="list-group-item-action">
                             <td className="nav-item" key={lpid}>
-                              <Link href="/committees/[lpid]" as={`/committees/${lpid}`}><a className="dropdown-item text-left">{name}</a></Link>
+                              <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
+                                <a className="dropdown-item text-left">{name}</a>
+                              </Link>
                             </td>
-                        </tr>
-                    ))}
+                          </tr>
+                        ))
+                      )}
+                    </Context.Consumer>
                   </table>
               </div>
           </div>
           <div className="interim-committees">
             <Link href="/committees/interim"><a className="dropdown-item">Interim</a></Link>
               <ul className="sub-dropdown dropdown-menu list-group">
-                {props.interim_committees.default.committees.map(({ lpid, name}) => (
-                    <li className="nav-item list-group-item list-group-item-action" key={lpid}>
-                      <Link href="/committees/[lpid]" as={`/committees/${lpid}`}><a className="dropdown-item text-left">{name}</a></Link>
-                    </li>
-                ))}
+                <Context.Consumer>
+                  {(context) => (
+                    context.state.interim_committees.map(({lpid, name}) => (
+                      <li className="nav-item list-group-item list-group-item-action" key={lpid}>
+                        <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
+                          <a className="dropdown-item text-left">{name}</a>
+                        </Link>
+                      </li>
+                    ))
+                  )}
+                </Context.Consumer>
               </ul>
           </div>
           <div className="conference-committees">

@@ -2,5 +2,67 @@
   "lpid": "agriculture",
   "name": "Agriculture",
   "chamber": "senate",
-  "type": "standing"
+  "type": "standing",
+  "meetings": [
+    {
+      "lpid": "dasjhjfjasnvcmscnjksdhf3r4982jke",
+      "date": "Jan. 23, 2020",
+      "time": "10:00am",
+      "location": "Room 130",
+      "bills": [
+        {
+          "name": "SB 185",
+          "authors": [
+            "/legislative/2020/legislators/legislator_ron_alting_538/"
+          ],
+          "sponsors": [],
+          "authors_names": ["Sen. Ron Alting"],
+          "sponsors_names": [],
+          "url": "/legislative/2020/bills/senate/185",
+          "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
+        },
+        {
+          "name": "SB 218",
+          "authors": [
+            "/legislative/2020/legislators/legislator_james_buck_124/"
+          ],
+          "sponsors": [],
+          "authors_names": ["Sen. James Buck"],
+          "sponsors_names": [],
+          "url": "/legislative/2020/bills/senate/218",
+          "status": "In Committee"
+        }
+      ]
+    },
+    {
+      "lpid": "jkjkhsfjasdfjasdfneuirhadjfnasdf",
+      "date": "Jan. 27, 2020",
+      "time": "Upon Adjournment of Session",
+      "location": "Room 130",
+      "bills": [
+        {
+          "name": "SB 233",
+          "authors": [
+            "/legislative/2020/legislators/legislator_james_tomes_1041/"
+          ],
+          "sponsors": [],
+          "authors_names": ["Sen. James Tomes"],
+          "sponsors_names": [],
+          "url": "/legislative/2020/bills/senate/233",
+          "status": "DO PASS Yeas: 7; Nays: 2; (Voted on Jan, 22)"
+        },
+        {
+          "name": "SB 145",
+          "authors": [
+            "/legislative/2020/legislators/legislator_philip_boots_865/"
+          ],
+          "sponsors": [],
+          "authors_names": ["Sen. Philip Boots"],
+          "sponsors_names": [],
+          "url": "/legislative/2020/bills/senate/145",
+          "status": "In Committee"
+        }
+      ]
+    }
+  ]
 }

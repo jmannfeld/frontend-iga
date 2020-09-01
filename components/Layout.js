@@ -1,21 +1,20 @@
 import Head from 'next/head';
-import React from "react";
+import React from 'react';
 
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from './Header';
+import Footer from './Footer';
 
-const Layout = (props) => (
+const Layout = props => (
   <div className="layout">
     <Head>
       <title>Indiana General Assembly, 2020 Session</title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossOrigin="anonymous"/>
+      <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet" />
     </Head>
 
     <div className="layout-border mx-5 d-flex flex-column justify-content-start align-items-stretch">
-      <Header standing_committees={props.standing_committees} interim_committees={props.interim_committees}/>
+      <Header />
       {props.children}
-      <Footer/>
+      <Footer />
     </div>
 
     <style jsx>{`
@@ -27,21 +26,10 @@ const Layout = (props) => (
       .layout-border {
         border-right: 5px solid #ffd54a;
         border-left: 5px solid #ffd54a;
+        min-height: 100vh;
       }
-     `}</style>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossOrigin="anonymous"/>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossOrigin="anonymous"/>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossOrigin="anonymous"/>
+    `}</style>
   </div>
-
-
 );
 
 export default Layout;

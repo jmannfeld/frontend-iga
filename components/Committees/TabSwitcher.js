@@ -5,11 +5,11 @@ import MeetingsTab from './MeetingsTab';
 import BillsTab from './BillsTab';
 import MembersTab from './MembersTab';
 
-const TabSwticher = ({ committeeLpid }) => (
+const TabSwticher = ({ committeeLpid, meetings }) => (
   <div>
     <Tabs defaultActiveKey="meetings" className="nav-pills nav-fill">
       <Tab eventKey="meetings" title="Committee Meetings">
-        <MeetingsTab committeeLpid={committeeLpid} />
+        <MeetingsTab committeeLpid={committeeLpid} meetings={meetings} />
       </Tab>
       <Tab eventKey="bills" title="Assigned Bills">
         <BillsTab committeeLpid={committeeLpid} />
