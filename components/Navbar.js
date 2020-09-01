@@ -7,22 +7,102 @@ const Navbar = () => (
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Information</a></Link>
       <div className="dropdown-menu nav-display">
-        <a className="dropdown-item" href="#">Action</a>
-        <a className="dropdown-item" href="#">Another action</a>
-        <a className="dropdown-item" href="#">Something else here</a>
+        <div className="interim-committees">
+          <a className="dropdown-item" href="#">About the IGA</a>
+            <ul className="sub-dropdown dropdown-menu list-group">
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        About and Contact the IGA
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Notices & Updates
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Continuing Legal Education
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Separated link</a>
+        <div className="interim-committees">
+          <a className="dropdown-item" href="#">Archives</a>
+            <ul className="sub-dropdown dropdown-menu list-group">
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Videos
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Archives (2000-2013)
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div className="dropdown-divider"/>
+        <a className="dropdown-item" href="#">Legislator Database</a>
       </div>
     </li>
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Session</a></Link>
       <div className="dropdown-menu nav-display">
-        <a className="dropdown-item" href="#">Action</a>
-        <a className="dropdown-item" href="#">Another action</a>
-        <a className="dropdown-item" href="#">Something else here</a>
+        <div className="interim-committees">
+          <a className="dropdown-item" href="#">2020 Session</a>
+            <ul className="sub-dropdown dropdown-menu list-group">
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Senate Webcast
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        House Webcast
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Rules
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Separated link</a>
-      </div>
+        <div className="interim-committees">
+          <a className="dropdown-item" href="#">Senate</a>
+            <ul className="sub-dropdown dropdown-menu list-group">
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Live Chamber Webcast
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Auto Attend
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div className="dropdown-divider"/>
+        <div className="interim-committees">
+          <a className="dropdown-item" href="#">House</a>
+            <ul className="sub-dropdown dropdown-menu list-group">
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Live Chamber Webcast
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Auto Attend
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
     </li>
     <li className="nav-item dropdown">
       <Link href="/committees"><a className="nav-link active" role="button">Committees</a></Link>
@@ -93,21 +173,19 @@ const Navbar = () => (
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Legislation</a></Link>
       <div className="dropdown-menu nav-display">
-        <a className="dropdown-item" href="#">Action</a>
-        <a className="dropdown-item" href="#">Another action</a>
-        <a className="dropdown-item" href="#">Something else here</a>
-        <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Separated link</a>
+        <a className="dropdown-item" href="#">Bills</a>
+        <a className="dropdown-item" href="#">By Legislator</a>
+        <a className="dropdown-item" href="#">Resolutions</a>
+        <a className="dropdown-item" href="#">By Subject</a>
       </div>
     </li>
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Laws</a></Link>
       <div className="dropdown-menu nav-display">
-        <a className="dropdown-item" href="#">Action</a>
-        <a className="dropdown-item" href="#">Another action</a>
-        <a className="dropdown-item" href="#">Something else here</a>
-        <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Separated link</a>
+        <a className="dropdown-item" href="#">Constitution</a>
+        <a className="dropdown-item" href="#">Indiana Code</a>
+        <a className="dropdown-item" href="#">Noncode Statutes</a>
+        <a className="dropdown-item" href="#">Acts</a>
       </div>
     </li>
     <li className="nav-item dropdown">
@@ -123,21 +201,48 @@ const Navbar = () => (
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Publications</a></Link>
       <div className="dropdown-menu nav-display">
-        <a className="dropdown-item" href="#">Action</a>
-        <a className="dropdown-item" href="#">Another action</a>
-        <a className="dropdown-item" href="#">Something else here</a>
+        <div className="interim-committees">
+          <a className="dropdown-item" href="#">Rules</a>
+            <ul className="sub-dropdown dropdown-menu list-group">
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Administrative Rules Drafting Manual
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Indiana Register
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Administrative Code
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Separated link</a>
+        <div className="interim-committees">
+          <a className="dropdown-item" href="#">Publications</a>
+            <ul className="sub-dropdown dropdown-menu list-group">
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Handbooks
+                    </a>
+                </li>
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Tax Incentive Reviews
+                    </a>
+                </li>
+            </ul>
+        </div>
       </div>
     </li>
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Login</a></Link>
       <div className="dropdown-menu nav-display">
-        <a className="dropdown-item" href="#">Action</a>
-        <a className="dropdown-item" href="#">Another action</a>
-        <a className="dropdown-item" href="#">Something else here</a>
-        <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Separated link</a>
+        <a className="dropdown-item" href="#">Login</a>
       </div>
     </li>
 
