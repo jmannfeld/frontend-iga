@@ -73,8 +73,9 @@ const CommitteePage = ({ committeeData }) => {
 //   };
 // }
 
-export async function getServerSideProps() {
+export async function getServerSideProps({params}) {
   // this is where we do the API call for individual committee information e.g. await(fetch(.../?params.lpid))
+  console.log(params);
   const committeeData = JSON.stringify(agriculture);
   return {
     props: {

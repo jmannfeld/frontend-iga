@@ -1,35 +1,33 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
 
 import CommitteeLayout from '../../components/Committees/CommitteeLayout';
-import * as interim_committees from '../../data/interim_committees.json';
+import {Context} from "../../components/Utils/Context";
+import CommitteeList from "../../components/Committees/CommitteeList";
 
-const InterimCommittees = ({ committees }) => (
-  <CommitteeLayout>
-    <h1>Interim Committees Homepage Index (List view)</h1>
-    <ul>
-      {committees.committees.map(({ lpid, name, chamber, type }) => (
-        <li key={lpid}>
-          <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
-            <a>{lpid}</a>
-          </Link>
-          <br />
-          {name}
-          <br />
-          {type}
-        </li>
-      ))}
-    </ul>
-  </CommitteeLayout>
-);
+class InterimCommittees extends React.Component {
+  componentDidMount() {
+    this.context.setCommitteeActive("interim");
+  }
 
-export async function getServerSideProps() {
-  const response = JSON.parse(JSON.stringify(interim_committees)); // this is where we would have the API call, e.g. await fetch(...)
-  return {
-    props: {
-      committees: response.default,
-    },
-  };
+  render() {
+    return (
+      <CommitteeLayout>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col">
+              <Context.Consumer>
+                {(context) => (<CommitteeList centered="false"
+                                              title="Interim Committees"
+                                              committees={context.state.interim_legislative_committees}/>)}
+              </Context.Consumer>
+            </div>
+          </div>
+        </div>
+      </CommitteeLayout>
+    );
+  }
 }
+
+InterimCommittees.contextType = Context;
 
 export default InterimCommittees;
