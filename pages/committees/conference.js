@@ -1,33 +1,33 @@
 import React from "react";
-import Link from "next/link";
 
 import CommitteeLayout from "../../components/Committees/CommitteeLayout";
-import * as conference_committees from "../../data/conference_committees.json";
+import {Context} from "../../components/Utils/Context";
+import CommitteeList from "../../components/Committees/CommitteeList";
 
-const ConferenceCommittees = ({committees}) => (
-  <CommitteeLayout>
-    <h1>Conference Committees Homepage Index (List view)</h1>
-    <ul>
-      {committees.committees.map(({ lpid, name, chamber, type }) => (
-        <li key={lpid}>
-          <Link href="/committees/[lpid]" as={`/committees/${lpid}`}><a>{lpid}</a></Link>
-          <br />
-          {name}
-          <br />
-          {type}
-        </li>
-      ))}
-    </ul>
-  </CommitteeLayout>
-);
+class ConferenceCommittees extends React.Component {
+  componentDidMount() {
+    this.context.setCommitteeActive("conference");
+  }
 
-export async function getServerSideProps() {
-  const response = JSON.parse(JSON.stringify(conference_committees)); // this is where we would have the API call, e.g. await fetch(...)
-  return {
-    props: {
-      committees: response.default
-    }
+  render() {
+    return (
+      <CommitteeLayout>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col">
+              <Context.Consumer>
+                {(context) => (<CommitteeList centered="false"
+                                              title="Conference Committees"
+                                              committees={context.state.conference_committees}/>)}
+              </Context.Consumer>
+            </div>
+          </div>
+        </div>
+      </CommitteeLayout>
+    );
   }
 }
+
+ConferenceCommittees.contextType = Context;
 
 export default ConferenceCommittees;
