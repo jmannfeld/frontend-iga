@@ -1,15 +1,28 @@
 import React from 'react';
 import Link from 'next/link';
-import Table from "react-bootstrap/Table";
 
-const CommitteeList = ({centered, title, committees }) => (
-  <div className={`mt-4 d-flex flex-column align-items-stretch justify-content-start`}>
-    <h3 className={`${centered === "true" ? "text-center": ""} mb-4`}>{title}</h3>
-    <Table borderless hover>
-      <tbody>
-      {committees.map(committee => (<Link href={`/committees/${committee.lpid}`}><tr><td>{committee.name}</td></tr></Link>))}
-      </tbody>
-    </Table>
+const CommitteeList = ({committees}) => (
+  <div className="mb-3 d-flex flex-column align-items-stretch justify-content-start">
+    <div className="list-group">
+      {committees.map(committee => (
+        <Link href={`/committees/${committee.lpid}`}>
+          <a className="list-group-item list-group-item-action p-1">{committee.name}</a>
+        </Link>)
+      )}
+    </div>
+
+    <style jsx>{`
+      .list-group-item-action {
+        border: none;
+        background-color: inherit;
+        border-radius: 0;
+        border-radius: 0;
+      }
+      
+      .list-group-item-action:hover {
+        background-color: white;
+      }
+    `}</style>
   </div>
   // <div className="container-fluid">
   //   <div className={`row row-cols-${columns}`}>

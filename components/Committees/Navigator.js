@@ -29,7 +29,7 @@ const Navigator = () => {
           </Dropdown>
       <hr />
       <div>
-      <h5>Filter by Type</h5>
+      <h5 className="navigator-title text-center">Filter by Type</h5>
         <Context.Consumer>
           {(context) => (
             <>
@@ -40,15 +40,15 @@ const Navigator = () => {
                    }}>Standing</a>
               </Link>
               <Link href="/committees/standing">
-                <a className={`dropdown-item indented ${context.state.committee_active === "standing" && context.state.committee_filter === "house" ? "active": ""}`}
+                <a className={`dropdown-item indented ${context.state.committee_active === "standing" && context.state.committee_filter === "House" ? "active": ""}`}
                    onClick={(event) => {
-                     context.setCommitteeFilter("house");
+                     context.setCommitteeFilter("House");
                    }}>House</a>
               </Link>
               <Link href="/committees/standing">
-                <a className={`dropdown-item indented ${context.state.committee_active === "standing" && context.state.committee_filter === "senate" ? "active": ""}`}
+                <a className={`dropdown-item indented ${context.state.committee_active === "standing" && context.state.committee_filter === "Senate" ? "active": ""}`}
                    onClick={(event) => {
-                     context.setCommitteeFilter("senate");
+                     context.setCommitteeFilter("Senate");
                    }}>Senate</a>
               </Link>
               <Link href="/committees/interim">
@@ -93,8 +93,7 @@ const Navigator = () => {
       </div>
       <style jsx>{`
         .navigator {
-          background-color: #04193617;
-          border-radius: 5px;
+          background-color: #c9cad8;
         }
         .navigator-title {
           font-size: 1.15rem;

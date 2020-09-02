@@ -5,78 +5,86 @@ import { IconContext } from 'react-icons';
 import * as agriculture from '../../data/agriculture.json';
 import CommitteeLayout from '../../components/Committees/CommitteeLayout';
 import TabSwitcher from '../../components/Committees/TabSwitcher';
+import {useRouter} from "next/router";
 
-const CommitteePage = ({ committeeData }) => {
-  const committeeJson = JSON.parse(committeeData);
-  const {
-    name: committeeName,
-    chamber,
-    lpid,
-    meetings,
-  } = committeeJson.default;
-  return (
-    <CommitteeLayout>
-      <div className="title-bar">
-        <h1>
-          ({chamber.toUpperCase()[0]}) {committeeName}
-        </h1>
-        <div>
-          <IconContext.Provider
-            value={{ size: '2.25em', className: 'meeting-pills' }}
-          >
-            <a href="#" className="badge badge-primary">
-              <FaShare />
-            </a>
-            <a href="#" className="badge badge-primary">
-              <FaRss />
-            </a>
-            <a href="#" className="badge badge-primary">
-              <FaLink />
-            </a>
-            <a href="#" className="badge badge-primary">
-              <FaPrint />
-            </a>
-          </IconContext.Provider>
+function CommitteePage({committeeData}) {
+  const router = useRouter();
+  if (router.isFallback) {
+    return <CommitteeLayout>Loading...</CommitteeLayout>
+  } else {
+    const committeeJson = JSON.parse(committeeData);
+    const {
+      name: committeeName,
+      chamber,
+      lpid,
+      meetings,
+    } = committeeJson.default;
+    return (
+      <CommitteeLayout>
+        <div className="title-bar">
+          <h1>
+            ({chamber.toUpperCase()[0]}) {committeeName}
+          </h1>
+          <div>
+            <IconContext.Provider
+              value={{ size: '2.25em', className: 'meeting-pills' }}
+            >
+              <a href="#" className="badge badge-primary">
+                <FaShare />
+              </a>
+              <a href="#" className="badge badge-primary">
+                <FaRss />
+              </a>
+              <a href="#" className="badge badge-primary">
+                <FaLink />
+              </a>
+              <a href="#" className="badge badge-primary">
+                <FaPrint />
+              </a>
+            </IconContext.Provider>
+          </div>
         </div>
-      </div>
-      <TabSwitcher committeeLpid={lpid} meetings={meetings} />
-      <style jsx>{`
-        h1 {
-          padding-bottom: 0.5em;
-        }
-        .title-bar {
-          display: flex;
-          justify-content: space-between;
-        }
-        .title-bar a {
-          margin-right: 1em;
-          margin-top: 0.5em;
-        }
-      `}</style>
-    </CommitteeLayout>
-  );
-};
+        <TabSwitcher committeeLpid={lpid} meetings={meetings} />
+        <style jsx>{`
+          h1 {
+            padding-bottom: 0.5em;
+          }
+          .title-bar {
+            display: flex;
+            justify-content: space-between;
+          }
+          .title-bar a {
+            margin-right: 1em;
+            margin-top: 0.5em;
+          }
+        `}</style>
+      </CommitteeLayout>
+    );
+  }
+}
 
-// export async function getStaticPaths() {
-//   // needs to be an array with all committee lpids e.g. [{params:{id:''}}, {params:{id:''}}]
-//   // TODO: need to ask the middleware team to implement this API call OR figure out how to bring this in from Committee index.js
-//   const paths = [
-//     { params: { lpid: 'agriculture', name: 'Agriculture' } },
-//     { params: { lpid: 'agriculture_and_rural_development' } },
-//     { params: { lpid: '21st_century_energy_policy_development_task_force' } },
-//     { params: { lpid: 'conference_committee_for_sb_1' } },
-//     { params: { lpid: 'conference_committee_for_hb_1003' } },
-//   ];
-//   return {
-//     paths,
-//     fallback: false,
-//   };
-// }
+export async function getStaticPaths() {
+  // needs to be an array with all committee lpids e.g. [{params:{id:''}}, {params:{id:''}}]
+  // TODO: figure out how to get the context in here so it's not as slow (works for now)
+  const paths = [];
+  return {
+    paths,
+    fallback: true,
+  };
+}
 
-export async function getServerSideProps({params}) {
-  // this is where we do the API call for individual committee information e.g. await(fetch(.../?params.lpid))
-  console.log(params);
-  const committeeData = JSON.stringify(agriculture);
+export async function getStaticProps({params}) {
+  let committeeData = null;
+  try {
+    // TODO: Update this with actual API call, also it's getting the right committee data for agriculture but failing during parsing idk
+    const response = await fetch(`http://localhost:3004/committees?lpid=${params.lpid}`);
+    if (response.status === 200) {
+      committeeData = (await response.json())[0];
+    }
+    else committeeData = JSON.stringify(agriculture);
+  } catch (Exception) {
+    committeeData = JSON.stringify(agriculture);
+  }
   return {
     props: {
       committeeData,

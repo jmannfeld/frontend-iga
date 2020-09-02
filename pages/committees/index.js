@@ -3,6 +3,7 @@ import React from "react";
 import CommitteeLayout from '../../components/Committees/CommitteeLayout';
 import {Context} from "../../components/Utils/Context";
 import CommitteeList from "../../components/Committees/CommitteeList";
+import CommitteeListGroup from "../../components/Committees/CommitteeListGroup";
 
 class Committees extends React.Component {
   componentDidMount() {
@@ -14,44 +15,62 @@ class Committees extends React.Component {
       <CommitteeLayout>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-6">
+            <div className="col-12">
+              <h3 className="text-center">Standing Committees</h3>
+            </div>
+            <div className="col-6 d-flex">
               <Context.Consumer>
-                {(context) => (<CommitteeList centered="true"
-                                              title="Senate Standing Committees"
-                                              committees={context.state.senate_standing_committees}/>)}
+                {(context) => (
+                  <CommitteeListGroup title="Senate" committees={context.state.senate_standing_committees} />
+                )}
               </Context.Consumer>
             </div>
-            <div className="col-6">
+            <div className="col-6 d-flex">
               <Context.Consumer>
-                {(context) => (<CommitteeList centered="true"
-                                              title="House Standing Committees"
-                                              committees={context.state.house_standing_committees}/>)}
+                {(context) => (
+                  <CommitteeListGroup title="House" committees={context.state.house_standing_committees} />
+                )}
               </Context.Consumer>
             </div>
           </div>
-          <div className="row">
-            <div className="col-6">
+          <div className="row mt-3">
+            <div className="col-12">
+              <h3 className="text-center">Conference Committees</h3>
+            </div>
+            <div className="col-6 d-flex">
               <Context.Consumer>
-                {(context) => (<CommitteeList centered="true"
-                                              title="Interim Committees"
-                                              committees={context.state.interim_legislative_committees}/>)}
+                {(context) => (
+                  <CommitteeListGroup title="Senate" committees={context.state.conference_committees.filter(committee => committee.chamber === "senate")} />
+                )}
               </Context.Consumer>
             </div>
-            <div className="col-6">
+            <div className="col-6 d-flex">
               <Context.Consumer>
-                {(context) => (<CommitteeList centered="true"
-                                              title="Conference Committees"
-                                              committees={context.state.conference_committees}/>)}
+                {(context) => (
+                  <CommitteeListGroup title="House" committees={context.state.conference_committees.filter(committee => committee.chamber === "house")} />
+                )}
+              </Context.Consumer>
+            </div>
+          </div>
+          <div className="row mt-3">
+            <div className="col-12">
+              <h3 className="text-center">Interim Committees</h3>
+            </div>
+            <div className="col-12">
+              <Context.Consumer>
+                {(context) => (
+                  <CommitteeListGroup title="" committees={context.state.interim_legislative_committees} />
+                )}
               </Context.Consumer>
             </div>
           </div>
         </div>
 
         <style jsx>{`
-        .border-right {
-          border-right: 1px solid rgba(0,0,0,.1);
-        }
-      `}</style>
+          .list {
+            background-color: #c9cad8;
+          }
+        `}</style>
       </CommitteeLayout>
     );
   }
