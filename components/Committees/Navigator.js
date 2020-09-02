@@ -98,7 +98,7 @@ const Navigator = () => {
       </div>
       <style jsx>{`
         .navigator {
-          background-color: #04193617;
+          background-color: #c9cad8;
           border-radius: 5px;
         }
         .navigator-title {
