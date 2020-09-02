@@ -12,13 +12,12 @@ function CommitteePage({committeeData}) {
   if (router.isFallback) {
     return <CommitteeLayout>Loading...</CommitteeLayout>
   } else {
-    const committeeJson = JSON.parse(committeeData);
     const {
       name: committeeName,
       chamber,
       lpid,
       meetings,
-    } = committeeJson.default;
+    } = committeeData;
     return (
       <CommitteeLayout>
         <div className="title-bar">
@@ -76,11 +75,9 @@ export async function getStaticPaths() {
 export async function getStaticProps({params}) {
   let committeeData = null;
   try {
-    // TODO: Update this with actual API call, also it's getting the right committee data for agriculture but failing during parsing idk
+    // TODO: Update this with actual API call
     const response = await fetch(`http://localhost:3004/committees?lpid=${params.lpid}`);
-    if (response.status === 200) {
-      committeeData = (await response.json())[0];
-    }
+    if (response.status === 200) committeeData = (await response.json())[0];
     else committeeData = JSON.stringify(agriculture);
   } catch (Exception) {
     committeeData = JSON.stringify(agriculture);
