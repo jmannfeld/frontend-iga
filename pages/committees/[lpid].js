@@ -76,9 +76,11 @@ export async function getStaticPaths() {
 export async function getStaticProps({params}) {
   let committeeData = null;
   try {
-    // TODO: Update this with actual API call
-    const response = await fetch(`http://localhost:3004/committes?lpid=${params.lpid}`);
-    if (response.status === 200) committeeData = await response.json();
+    // TODO: Update this with actual API call, also it's getting the right committee data for agriculture but failing during parsing idk
+    const response = await fetch(`http://localhost:3004/committees?lpid=${params.lpid}`);
+    if (response.status === 200) {
+      committeeData = (await response.json())[0];
+    }
     else committeeData = JSON.stringify(agriculture);
   } catch (Exception) {
     committeeData = JSON.stringify(agriculture);

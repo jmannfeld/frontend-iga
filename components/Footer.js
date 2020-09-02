@@ -57,6 +57,7 @@ const Footer = () => (
 
       .nav-link:hover {
         background-color: rgb(203, 206, 214);
+        border-radius: 0;
       }
     `}</style>
   </div>

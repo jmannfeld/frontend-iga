@@ -1,8 +1,8 @@
 {
   "committees": [
     {
-      "lpid": "agriculture",
-      "name": "Agriculture",
+      "lpid": "committee_agriculture_and_natural_resources_3100",
+      "name": "Agriculture HELLO",
       "chamber": "senate",
       "type": "standing",
       "non_lsa_staffed": false
