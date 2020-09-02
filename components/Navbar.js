@@ -8,9 +8,9 @@ const Navbar = () => (
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Information</a></Link>
       <div className="dropdown-menu nav-display">
-        <div className="interim-committees">
+        <div className="standard-submenu">
           <a className="dropdown-item" href="#">About the IGA</a>
-            <ul className="sub-dropdown dropdown-menu list-group">
+            <ul className="sub-dropdown list-group">
                 <li className="nav-item list-group-item list-group-item-action">
                     <a className="dropdown-item text-left">
                         About and Contact the IGA
@@ -28,10 +28,9 @@ const Navbar = () => (
                 </li>
             </ul>
         </div>
-        <div className="dropdown-divider"/>
-        <div className="interim-committees">
+        <div className="standard-submenu">
           <a className="dropdown-item" href="#">Archives</a>
-            <ul className="sub-dropdown dropdown-menu list-group">
+            <ul className="sub-dropdown list-group">
                 <li className="nav-item list-group-item list-group-item-action">
                     <a className="dropdown-item text-left">
                         Videos
@@ -44,16 +43,24 @@ const Navbar = () => (
                 </li>
             </ul>
         </div>
-        <div className="dropdown-divider"/>
-        <a className="dropdown-item" href="#">Legislator Database</a>
+        <div className="standard-submenu">
+          <a className="dropdown-item" href="#">Legislator Database</a>
+            <ul className="sub-dropdown list-group">
+                <li className="nav-item list-group-item list-group-item-action">
+                    <a className="dropdown-item text-left">
+                        Database
+                    </a>
+                </li>
+            </ul>
+        </div>
       </div>
     </li>
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Session</a></Link>
       <div className="dropdown-menu nav-display">
-        <div className="interim-committees">
+        <div className="standard-submenu">
           <a className="dropdown-item" href="#">2020 Session</a>
-            <ul className="sub-dropdown dropdown-menu list-group">
+            <ul className="sub-dropdown list-group">
                 <li className="nav-item list-group-item list-group-item-action">
                     <a className="dropdown-item text-left">
                         Senate Webcast
@@ -72,9 +79,9 @@ const Navbar = () => (
             </ul>
         </div>
         <div className="dropdown-divider"/>
-        <div className="interim-committees">
+        <div className="standard-submenu">
           <a className="dropdown-item" href="#">Senate</a>
-            <ul className="sub-dropdown dropdown-menu list-group">
+            <ul className="sub-dropdown list-group">
                 <li className="nav-item list-group-item list-group-item-action">
                     <a className="dropdown-item text-left">
                         Live Chamber Webcast
@@ -88,9 +95,9 @@ const Navbar = () => (
             </ul>
         </div>
         <div className="dropdown-divider"/>
-        <div className="interim-committees">
+        <div className="standard-submenu">
           <a className="dropdown-item" href="#">House</a>
-            <ul className="sub-dropdown dropdown-menu list-group">
+            <ul className="sub-dropdown list-group">
                 <li className="nav-item list-group-item list-group-item-action">
                     <a className="dropdown-item text-left">
                         Live Chamber Webcast
@@ -212,9 +219,9 @@ const Navbar = () => (
     <li className="nav-item dropdown">
       <Link href="/"><a className="nav-link" role="button">Publications</a></Link>
       <div className="dropdown-menu nav-display">
-        <div className="interim-committees">
+        <div className="standard-submenu">
           <a className="dropdown-item" href="#">Rules</a>
-            <ul className="sub-dropdown dropdown-menu list-group">
+            <ul className="sub-dropdown list-group">
                 <li className="nav-item list-group-item list-group-item-action">
                     <a className="dropdown-item text-left">
                         Administrative Rules Drafting Manual
@@ -233,9 +240,9 @@ const Navbar = () => (
             </ul>
         </div>
         <div className="dropdown-divider"/>
-        <div className="interim-committees">
+        <div className="standard-submenu">
           <a className="dropdown-item" href="#">Publications</a>
-            <ul className="sub-dropdown dropdown-menu list-group">
+            <ul className="sub-dropdown list-group">
                 <li className="nav-item list-group-item list-group-item-action">
                     <a className="dropdown-item text-left">
                         Handbooks
@@ -283,25 +290,48 @@ const Navbar = () => (
 
       .sub-dropdown {
         display: none;
+        padding: 0px;
       }
+      
+      // list-group-item {
+      //   max-height: 40px
+      // }
 
       .standing-committees:hover .committee-tables,
       .interim-committees:hover .sub-dropdown {
         display: block;
         margin-top: 0;
         padding-top: 0;
+        left: 100%;
+        top: 0px;
+        width: 700px;
       }
 
       .dropdown-menu {
         padding: 0;
         min-width: 100%;
       }
-
-      .dropdown-menu:hover .sub-dropdown {
-        left: 100%;
-        top: 0;
-        width: 700px;
+      
+      .standard-submenu {
+        max-height: 40px;
       }
+
+      // .dropdown-menu:hover .sub-dropdown {
+      //   left: 100%;
+      //   top: 0;
+      //   width: 700px;
+      // }
+      
+      .standard-submenu:hover .sub-dropdown {
+        position: relative;
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+        width: 400px;
+        left:100%;
+        top: -40px;
+      }
+      
       .house-committees {
         width: 50%;
         float: left;
