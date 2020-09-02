@@ -18,10 +18,12 @@ const Navigator = () => {
                 {currentSession.name}
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                  {pastSessions.map(({ name }) => (
-                    <a className="dropdown-item" href="#" key={name}>
-                      <Dropdown.Item href="#/action-1">{name}</Dropdown.Item>
-                    </a>
+                  {pastSessions.map(({ name, year }) => (
+                      <Dropdown.Item>
+                        <Link href="/committees/[year]" as={`/committees/${year}`}>
+                            <a>{name}</a>
+                        </Link>
+                    </Dropdown.Item>
                   ))}
               </Dropdown.Menu>
           </Dropdown>

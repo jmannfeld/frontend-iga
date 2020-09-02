@@ -223,5 +223,98 @@
       "authors_names": ["Sen. Jean Leising", "Sen. Susan Glick"],
       "sponsors_names": ["Rep. Don Lehe"]
     }
+  ],
+  "2019_session_committees": [
+    {
+      "lpid": "agriculture",
+      "name": "Agriculture 2019",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "agriculture_and_rural_development",
+      "name": "Agriculture and Rural Development 2019",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "ethics_1_house",
+      "name": "ethics",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "ethics_1_senate",
+      "name": "Ethics 2019",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "21st_century_energy_policy_development_task_force",
+      "name": "21st Century Energy Policy Development Task Force",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "i_agriculture_and_natural_resources_interim_study_committee_on",
+      "name": "Interim Study Committee on Agriculture and Natural Resources",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "i_code_revision_commission",
+      "name": "Code Revision Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": true
+    },
+    {
+      "lpid": "i_commerce_and_economic_development_interim_study_committee_on",
+      "name": "Interim Study Committee on Commerce and Economic Development",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": true
+    },
+    {
+      "lpid": "conference_committee_for_sb_1",
+      "name": "Conference Committee for SB 1",
+      "chamber": "",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "conference_committee_for_sb_2",
+      "name": "Conference Committee for SB 2",
+      "chamber": "",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "conference_committee_for_sb_3",
+      "name": "Conference Committee for SB 3",
+      "chamber": "",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "conference_committee_for_sb_4",
+      "name": "Conference Committee for SB 4",
+      "chamber": "",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "conference_committee_for_hb_1003",
+      "name": "Conference Committee for HB 1003",
+      "chamber": "",
+      "type": "conference",
+      "non_lsa_staffed": false
+    }
   ]
 }
