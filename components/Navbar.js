@@ -240,12 +240,16 @@ const Navbar = () => (
       .nav-tabs, .nav-link {
         border: none;
         margin-bottom: -1px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
       }
     
       .nav-link.active, .nav-link:hover {
         background-color: white;
         border: none;
         color: rgb(5, 24, 54);
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
       }
       
       a {
@@ -269,6 +273,7 @@ const Navbar = () => (
 
       .dropdown-menu {
         padding: 0;
+        min-width: 100%;
       }
 
       .dropdown-menu:hover .sub-dropdown {
