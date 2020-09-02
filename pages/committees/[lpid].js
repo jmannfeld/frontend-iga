@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { FaShare, FaRss, FaLink, FaPrint } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 
@@ -12,13 +12,12 @@ function CommitteePage({committeeData}) {
   if (router.isFallback) {
     return <CommitteeLayout>Loading...</CommitteeLayout>
   } else {
-    const committeeJson = JSON.parse(committeeData);
     const {
       name: committeeName,
       chamber,
       lpid,
       meetings,
-    } = committeeJson.default;
+    } = committeeData;
     return (
       <CommitteeLayout>
         <div className="title-bar">
@@ -64,9 +63,20 @@ function CommitteePage({committeeData}) {
 }
 
 export async function getStaticPaths() {
-  // needs to be an array with all committee lpids e.g. [{params:{id:''}}, {params:{id:''}}]
-  // TODO: figure out how to get the context in here so it's not as slow (works for now)
-  const paths = [];
+  let paths = [];
+
+  // Since this will only be called once during build time we don't need the context
+  const committee_api = "https://iaj822wghd.execute-api.us-east-1.amazonaws.com/test/GetCommittees";
+  const response = await fetch(committee_api);
+
+  if (response.status === 200) {
+    const committees = await response.json();
+    paths = committees.map(committee => ({
+      params: {
+        lpid: committee.lpid
+      }
+    }));
+  }
   return {
     paths,
     fallback: true,
@@ -74,16 +84,17 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({params}) {
-  let committeeData = null;
+  let committeeData;
   try {
-    // TODO: Update this with actual API call, also it's getting the right committee data for agriculture but failing during parsing idk
+    // TODO: Update this with actual API call
     const response = await fetch(`http://localhost:3004/committees?lpid=${params.lpid}`);
     if (response.status === 200) {
-      committeeData = (await response.json())[0];
+      committeeData = await response.json();
+      committeeData = committeeData.length > 0 ? committeeData[0] : JSON.parse(JSON.stringify(agriculture));
     }
-    else committeeData = JSON.stringify(agriculture);
+    else committeeData = JSON.parse(JSON.stringify(agriculture));
   } catch (Exception) {
-    committeeData = JSON.stringify(agriculture);
+    committeeData = JSON.parse(JSON.stringify(agriculture));
   }
   return {
     props: {
