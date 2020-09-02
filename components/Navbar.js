@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import {Context} from "./Utils/Context";
+import { FaRegFilePdf } from 'react-icons/fa';
 
 const Navbar = () => (
   <ul className="nav nav-tabs nav-fill">
@@ -168,6 +169,26 @@ const Navbar = () => (
           <div className="conference-committees">
             <Link href="/committees/conference"><a className="dropdown-item">Conference</a></Link>
           </div>
+          <li>
+            <Link href="#">
+              <a className="dropdown-item misc">House Committee Schedule <FaRegFilePdf /></a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#">
+              <a className="dropdown-item misc">Senate Committee Schedule <FaRegFilePdf /></a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#">
+              <a className="dropdown-item misc">House Conference Committee Schedule <FaRegFilePdf /></a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#">
+              <a className="dropdown-item misc">Senate Conference Committee Schedule <FaRegFilePdf /></a>
+            </Link>
+          </li>
       </div>
     </li>
     <li className="nav-item dropdown">
@@ -285,15 +306,24 @@ const Navbar = () => (
         width: 50%;
         float: left;
         margin: 0;
+        table-layout: fixed;
       }
       .senate-committees {
         width: 50%;
         float: right;
         margin: 0;
+        table-layout: fixed;
       }
       .senate-committees th,
       .house-committees th {
         text-align: center;
+
+      }
+      .senate-committees td,
+      .house-committees td,
+      .interim-committees li {
+        padding: 1px;
+        overflow: hidden;
 
       }
     `}</style>

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import { FaRegFilePdf } from 'react-icons/fa';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 import * as sessionYears from '../../data/session_years.json';
 import {Context} from '../Utils/Context';
@@ -12,26 +13,18 @@ const Navigator = () => {
   return (
     <div className="navigator h-100 px-3 py-3">
       <h1 className="navigator-title mb-3 text-center">Committee Navigator</h1>
-      <div className="dropdown">
-        <a
-          className="btn btn-dropdown dropdown-toggle w-100"
-          href="#"
-          role="button"
-          id="dropdownMenuLink"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          {currentSession.name}
-        </a>
-        <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          {pastSessions.map(({ name }) => (
-            <a className="dropdown-item" href="#" key={name}>
-              {name}
-            </a>
-          ))}
-        </div>
-      </div>
+          <Dropdown className="session-dropdown">
+              <Dropdown.Toggle variant="secondary" id="dropdown-basic" size="lg">
+                {currentSession.name}
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                  {pastSessions.map(({ name }) => (
+                    <a className="dropdown-item" href="#" key={name}>
+                      <Dropdown.Item href="#/action-1">{name}</Dropdown.Item>
+                    </a>
+                  ))}
+              </Dropdown.Menu>
+          </Dropdown>
       <hr />
       <div>
       <h5 className="navigator-title text-center">Filter by Type</h5>
