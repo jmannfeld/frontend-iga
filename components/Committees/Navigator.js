@@ -34,7 +34,7 @@ const Navigator = () => {
       </div>
       <hr />
       <div>
-      <h5 className="text-center">Filter by Type</h5>
+      <h5 className="navigator-title text-center">Filter by Type</h5>
         <Context.Consumer>
           {(context) => (
             <>
