@@ -19,7 +19,9 @@
                 "/legislative/2020/legislators/legislator_ron_alting_538/"
               ],
               "sponsors": [],
-              "authors_names": ["Sen. Ron Alting"],
+              "authors_names": [
+                "Sen. Ron Alting"
+              ],
               "sponsors_names": [],
               "url": "/legislative/2020/bills/senate/185",
               "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
@@ -30,7 +32,9 @@
                 "/legislative/2020/legislators/legislator_james_buck_124/"
               ],
               "sponsors": [],
-              "authors_names": ["Sen. James Buck"],
+              "authors_names": [
+                "Sen. James Buck"
+              ],
               "sponsors_names": [],
               "url": "/legislative/2020/bills/senate/218",
               "status": "In Committee"
@@ -49,7 +53,9 @@
                 "/legislative/2020/legislators/legislator_james_tomes_1041/"
               ],
               "sponsors": [],
-              "authors_names": ["Sen. James Tomes"],
+              "authors_names": [
+                "Sen. James Tomes"
+              ],
               "sponsors_names": [],
               "url": "/legislative/2020/bills/senate/233",
               "status": "DO PASS Yeas: 7; Nays: 2; (Voted on Jan, 22)"
@@ -60,7 +66,9 @@
                 "/legislative/2020/legislators/legislator_philip_boots_865/"
               ],
               "sponsors": [],
-              "authors_names": ["Sen. Philip Boots"],
+              "authors_names": [
+                "Sen. Philip Boots"
+              ],
               "sponsors_names": [],
               "url": "/legislative/2020/bills/senate/145",
               "status": "In Committee"
@@ -167,7 +175,9 @@
             "/legislative/2020/legislators/legislator_ron_alting_538/"
           ],
           "sponsors": [],
-          "authors_names": ["Sen. Ron Alting"],
+          "authors_names": [
+            "Sen. Ron Alting"
+          ],
           "sponsors_names": [],
           "url": "/legislative/2020/bills/senate/185",
           "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
@@ -178,7 +188,9 @@
             "/legislative/2020/legislators/legislator_james_buck_124/"
           ],
           "sponsors": [],
-          "authors_names": ["Sen. James Buck"],
+          "authors_names": [
+            "Sen. James Buck"
+          ],
           "sponsors_names": [],
           "url": "/legislative/2020/bills/senate/218",
           "status": "In Committee"
@@ -197,7 +209,9 @@
             "/legislative/2020/legislators/legislator_ron_alting_538/"
           ],
           "sponsors": [],
-          "authors_names": ["Sen. Ron Alting"],
+          "authors_names": [
+            "Sen. Ron Alting"
+          ],
           "sponsors_names": [],
           "url": "/legislative/2020/bills/senate/233",
           "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
@@ -208,7 +222,9 @@
             "/legislative/2020/legislators/legislator_james_buck_124/"
           ],
           "sponsors": [],
-          "authors_names": ["Sen. James Buck"],
+          "authors_names": [
+            "Sen. James Buck"
+          ],
           "sponsors_names": [],
           "url": "/legislative/2020/bills/senate/145",
           "status": "In Committee"
@@ -221,13 +237,19 @@
       "url": "/legislative/2020/bills/house/1119",
       "name": "HB 1119",
       "description": "Regulation of pesticide use and application.",
-      "authors": ["/legislative/2020/legislators/legislator_don_lehe_698/"],
+      "authors": [
+        "/legislative/2020/legislators/legislator_don_lehe_698/"
+      ],
       "sponsors": [
         "/legislative/2020/legislators/legislator_jean_leising_136/"
       ],
       "dead": 1,
-      "authors_names": ["Rep. Don Lehe"],
-      "sponsors_names": ["Sen. Jean Leising"]
+      "authors_names": [
+        "Rep. Don Lehe"
+      ],
+      "sponsors_names": [
+        "Sen. Jean Leising"
+      ]
     },
     {
       "url": "/legislative/2020/bills/senate/185",
@@ -247,16 +269,22 @@
         "Sen. Mike Bohacek",
         "Sen. Blake Doriot"
       ],
-      "sponsors_names": ["Rep. Sharon Negele"]
+      "sponsors_names": [
+        "Rep. Sharon Negele"
+      ]
     },
     {
       "url": "/legislative/2020/bills/senate/218",
       "name": "SB 218",
       "description": "Chicken hens.",
-      "authors": ["/legislative/2020/legislators/legislator_james_buck_124/"],
+      "authors": [
+        "/legislative/2020/legislators/legislator_james_buck_124/"
+      ],
       "sponsors": [],
       "dead": 1,
-      "authors_names": ["Sen. James Buck"],
+      "authors_names": [
+        "Sen. James Buck"
+      ],
       "sponsors_names": []
     },
     {
@@ -267,10 +295,17 @@
         "/legislative/2020/legislators/legislator_philip_boots_865/",
         "/legislative/2020/legislators/legislator_james_tomes_1041/"
       ],
-      "sponsors": ["/legislative/2020/legislators/legislator_beau_baird_1/"],
+      "sponsors": [
+        "/legislative/2020/legislators/legislator_beau_baird_1/"
+      ],
       "dead": 1,
-      "authors_names": ["Sen. Philip Boots", "Sen. James Tomes"],
-      "sponsors_names": ["Rep. Beau Baird"]
+      "authors_names": [
+        "Sen. Philip Boots",
+        "Sen. James Tomes"
+      ],
+      "sponsors_names": [
+        "Rep. Beau Baird"
+      ]
     },
     {
       "url": "/legislative/2020/bills/senate/438",
@@ -280,102 +315,4856 @@
         "/legislative/2020/legislators/legislator_jean_leising_136/",
         "/legislative/2020/legislators/legislator_susan_glick_1048/"
       ],
-      "sponsors": ["/legislative/2020/legislators/legislator_don_lehe_698/"],
+      "sponsors": [
+        "/legislative/2020/legislators/legislator_don_lehe_698/"
+      ],
       "dead": 0,
-      "authors_names": ["Sen. Jean Leising", "Sen. Susan Glick"],
-      "sponsors_names": ["Rep. Don Lehe"]
+      "authors_names": [
+        "Sen. Jean Leising",
+        "Sen. Susan Glick"
+      ],
+      "sponsors_names": [
+        "Rep. Don Lehe"
+      ]
     }
   ],
   "2019_session_committees": [
     {
-      "lpid": "agriculture",
-      "name": "Agriculture 2019",
+      "lpid": "committee_i_commerce_and_economic_development_interim_study_committee_on",
+      "name": "Commerce and Economic Development, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_fiscal_policy_interim_study_committee_on",
+      "name": "Fiscal Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_education_interim_study_committee_on",
+      "name": "Education, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_4400",
+      "name": "Public Policy 2019",
       "chamber": "senate",
       "type": "standing",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "agriculture_and_rural_development",
-      "name": "Agriculture and Rural Development 2019",
+      "lpid": "committee_conference_committee_for_sb_10",
+      "name": "Conference Committee for SB 10",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_courts_and_the_judiciary_interim_study_committee_on",
+      "name": "Courts and the Judiciary, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_energy_utilities_and_telecommunications_interim_study_committee_on",
+      "name": "Energy, Utilities, and Telecommunications, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_financial_institutions_0900",
+      "name": "Financial Institutions",
       "chamber": "house",
       "type": "standing",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "ethics_1_house",
-      "name": "ethics",
+      "lpid": "committee_conference_committee_for_hb_1222",
+      "name": "Conference Committee for HB 1222",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_237",
+      "name": "Conference Committee for SB 237",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_229",
+      "name": "Conference Committee for SB 229",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1008",
+      "name": "Conference Committee for HB 1008",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_ethics_2400",
+      "name": "Statutory Committee on Ethics",
       "chamber": "house",
       "type": "standing",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "ethics_1_senate",
-      "name": "Ethics 2019",
+      "lpid": "committee_conference_committee_for_sb_289",
+      "name": "Conference Committee for SB 289",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1348",
+      "name": "Conference Committee for HB 1348",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_roads_and_transportation_1700",
+      "name": "Roads and Transportation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_148",
+      "name": "Conference Committee for SB 148",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_340",
+      "name": "Conference Committee for SB 340",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_47",
+      "name": "Conference Committee for SB 47",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1065",
+      "name": "Conference Committee for HB 1065",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1153",
+      "name": "Conference Committee for HB 1153",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_government_and_regulatory_reform_1000",
+      "name": "Government and Regulatory Reform",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1022",
+      "name": "Conference Committee for HB 1022",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_1300",
+      "name": "Local Government",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_178",
+      "name": "Conference Committee for SB 178",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council",
+      "name": "Legislative Council",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1326",
+      "name": "Conference Committee for HB 1326",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_184",
+      "name": "Conference Committee for SB 184",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1414",
+      "name": "Conference Committee for HB 1414",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1004",
+      "name": "Conference Committee for HB 1004",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_295",
+      "name": "Conference Committee for SB 295",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_319",
+      "name": "Conference Committee for SB 319",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_438",
+      "name": "Conference Committee for SB 438",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_homeland_security_transportation",
+      "name": "Homeland Security and Transportation",
       "chamber": "senate",
       "type": "standing",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "21st_century_energy_policy_development_task_force",
+      "lpid": "committee_environmental_affairs_4800",
+      "name": "Environmental Affairs",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1066",
+      "name": "Conference Committee for HB 1066",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1332",
+      "name": "Conference Committee for HB 1332",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1131",
+      "name": "Conference Committee for HB 1131",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1070",
+      "name": "Conference Committee for HB 1070",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_select_committee_on_government_reduction_1900",
+      "name": "Select Committee on Government Reduction",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_environmental_affairs_interim_study_committee_on",
+      "name": "Environmental Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_4",
+      "name": "Conference Committee for SB 4",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_committee_on_joint_rules",
+      "name": "Committee on Joint Rules",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1006",
+      "name": "Conference Committee for HB 1006",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_246",
+      "name": "Conference Committee for SB 246",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_agriculture_and_natural_resources_interim_study_committee_on",
+      "name": "Agriculture and Natural Resources, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_small_business_and_economic_development_0200",
+      "name": "Commerce, Small Business and Economic Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_financial_institutions_and_insurance_interim_study_committee_on",
+      "name": "Financial Institutions and Insurance, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_natural_resources_3100",
+      "name": "Agriculture",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_interstate_and_international_cooperation_2300",
+      "name": "Statutory Committee on Interstate and International Cooperation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_1200",
+      "name": "Judiciary",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1132",
+      "name": "Conference Committee for HB 1132",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_audit_and_financial_reporting_subcommittee",
+      "name": "Legislative Council, Audit and Financial Reporting Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_408",
+      "name": "Conference Committee for SB 408",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_and_apportionment_0500",
+      "name": "Elections and Apportionment",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_334",
+      "name": "Conference Committee for SB 334",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1157",
+      "name": "Conference Committee for HB 1157",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_technology",
+      "name": "Commerce and Technology",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_350",
+      "name": "Conference Committee for SB 350",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_335",
+      "name": "Conference Committee for SB 335",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_the_military",
+      "name": "Veterans Affairs and The Military",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_346",
+      "name": "Conference Committee for SB 346",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_health_1500",
+      "name": "Public Health",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_190",
+      "name": "Conference Committee for SB 190",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_1100",
+      "name": "Insurance",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_pension_management_oversight_interim_study_committee_on",
+      "name": "Pension Management Oversight, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedure_4700",
+      "name": "Rules and Legislative Procedure",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1372",
+      "name": "Conference Committee for HB 1372",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_and_energy_2000",
+      "name": "Utilities, Energy and Telecommunications",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1108",
+      "name": "Conference Committee for HB 1108",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_299",
+      "name": "Conference Committee for SB 299",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_safety_and_military_affairs_interim_study_committee_on",
+      "name": "Public Safety and Military Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_and_public_safety_2100",
+      "name": "Veterans Affairs and Public Safety",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_and_children",
+      "name": "Family and Children Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_3800",
+      "name": "Utilities",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_health_behavioral_health_and_human_services_interim_study_committee_on",
+      "name": "Public Health, Behavioral Health, and Human Services, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedures_1800",
+      "name": "Rules and Legislative Procedures",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1353",
+      "name": "Conference Committee for HB 1353",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_pensions_and_labor_4500",
+      "name": "Pensions and Labor",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_legislative_continuity_committee",
+      "name": "Legislative Continuity Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_0700",
+      "name": "Environmental Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1003",
+      "name": "Conference Committee for HB 1003",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_258",
+      "name": "Conference Committee for SB 258",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_383",
+      "name": "Conference Committee for SB 383",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_4000",
+      "name": "Insurance and Financial Institutions",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1092",
+      "name": "Conference Committee for HB 1092",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1385",
+      "name": "Conference Committee for HB 1385",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_243",
+      "name": "Conference Committee for SB 243",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_367",
+      "name": "Conference Committee for SB 367",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_0400",
+      "name": "Education",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_256",
+      "name": "Conference Committee for SB 256",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_personnel_subcommittee",
+      "name": "Legislative Council, Personnel Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_appropriations_3700",
+      "name": "Appropriations",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_probate_code_study_commission",
+      "name": "Probate Code Study Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_21st_century_energy_policy_development_task_force",
       "name": "21st Century Energy Policy Development Task Force",
       "chamber": "",
       "type": "interim",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "i_agriculture_and_natural_resources_interim_study_committee_on",
-      "name": "Interim Study Committee on Agriculture and Natural Resources",
-      "chamber": "",
-      "type": "interim",
-      "non_lsa_staffed": false
-    },
-    {
-      "lpid": "i_code_revision_commission",
+      "lpid": "committee_i_code_revision_commission",
       "name": "Code Revision Commission",
       "chamber": "",
       "type": "interim",
-      "non_lsa_staffed": true
+      "non_lsa_staffed": false
     },
     {
-      "lpid": "i_commerce_and_economic_development_interim_study_committee_on",
-      "name": "Interim Study Committee on Commerce and Economic Development",
+      "lpid": "committee_ncsl_2020_legislative_summit_host_committee",
+      "name": "NCSL 2020 Legislative Summit Host Committee",
       "chamber": "",
       "type": "interim",
-      "non_lsa_staffed": true
+      "non_lsa_staffed": false
     },
     {
-      "lpid": "conference_committee_for_sb_1",
+      "lpid": "committee_conference_committee_for_hb_1014",
+      "name": "Conference Committee for HB 1014",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_1",
       "name": "Conference Committee for SB 1",
-      "chamber": "",
+      "chamber": "senate",
       "type": "conference",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "conference_committee_for_sb_2",
-      "name": "Conference Committee for SB 2",
-      "chamber": "",
+      "lpid": "committee_conference_committee_for_sb_80",
+      "name": "Conference Committee for SB 80",
+      "chamber": "senate",
       "type": "conference",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "conference_committee_for_sb_3",
-      "name": "Conference Committee for SB 3",
+      "lpid": "committee_i_roads_and_transportation_interim_study_committee_on",
+      "name": "Roads and Transportation, Interim Study Committee on",
       "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_employment_and_labor_interim_study_committee_on",
+      "name": "Employment and Labor, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_health_and_provider_services_3900",
+      "name": "Health and Provider Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_398",
+      "name": "Conference Committee for SB 398",
+      "chamber": "senate",
       "type": "conference",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "conference_committee_for_sb_4",
+      "lpid": "committee_local_government_4300",
+      "name": "Local Government",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1042",
+      "name": "Conference Committee for HB 1042",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_elections_interim_study_committee_on",
+      "name": "Elections, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_4200",
+      "name": "Judiciary",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ways_and_means_2200",
+      "name": "Ways and Means",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_1600",
+      "name": "Public Policy",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_corrections_and_criminal_code_interim_study_committee_on",
+      "name": "Corrections and Criminal Code, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_241",
+      "name": "Conference Committee for SB 241",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources",
+      "name": "Natural Resources",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1279",
+      "name": "Conference Committee for HB 1279",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_tax_and_fiscal_policy_4600",
+      "name": "Tax and Fiscal Policy",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_employment_labor_and_pensions_0600",
+      "name": "Employment, Labor and Pensions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_policy_interim_study_committee_on",
+      "name": "Public Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1045",
+      "name": "Conference Committee for HB 1045",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1419",
+      "name": "Conference Committee for HB 1419",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_and_career_development_3400",
+      "name": "Education and Career Development",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_3500",
+      "name": "Elections",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_courts_and_criminal_code_0300",
+      "name": "Courts and Criminal Code",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_government_interim_study_committee_on",
+      "name": "Government, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_space_utilization_subcommittee",
+      "name": "Legislative Council, Space Utilization Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1207",
+      "name": "Conference Committee for HB 1207",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_joint_rules_4900",
+      "name": "Joint Rules",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1113",
+      "name": "Conference Committee for HB 1113",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_132",
+      "name": "Conference Committee for SB 132",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_corrections_and_criminal_law_3000",
+      "name": "Corrections and Criminal Law",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_rural_development_0100",
+      "name": "Agriculture and Rural Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources_1400",
+      "name": "Natural Resources",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_school_funding_subcommittee",
+      "name": "School Funding Subcommittee",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1235",
+      "name": "Conference Committee for HB 1235",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_children_and_human_affairs_0800",
+      "name": "Family, Children and Human Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_433",
+      "name": "Conference Committee for SB 433",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_395",
+      "name": "Conference Committee for SB 395",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ethics_3600",
+      "name": "Ethics",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_data_processing_subcommittee",
+      "name": "Legislative Council, Technology Oversight Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    }
+  ],
+  "2018_session_committees": [
+    {
+      "lpid": "committee_i_commerce_and_economic_development_interim_study_committee_on",
+      "name": "Commerce and Economic Development, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_fiscal_policy_interim_study_committee_on",
+      "name": "Fiscal Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_education_interim_study_committee_on",
+      "name": "Education, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_4400",
+      "name": "Public Policy 2018",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_10",
+      "name": "Conference Committee for SB 10",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_courts_and_the_judiciary_interim_study_committee_on",
+      "name": "Courts and the Judiciary, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_energy_utilities_and_telecommunications_interim_study_committee_on",
+      "name": "Energy, Utilities, and Telecommunications, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_financial_institutions_0900",
+      "name": "Financial Institutions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1222",
+      "name": "Conference Committee for HB 1222",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_237",
+      "name": "Conference Committee for SB 237",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_229",
+      "name": "Conference Committee for SB 229",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1008",
+      "name": "Conference Committee for HB 1008",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_ethics_2400",
+      "name": "Statutory Committee on Ethics",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_289",
+      "name": "Conference Committee for SB 289",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1348",
+      "name": "Conference Committee for HB 1348",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_roads_and_transportation_1700",
+      "name": "Roads and Transportation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_148",
+      "name": "Conference Committee for SB 148",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_340",
+      "name": "Conference Committee for SB 340",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_47",
+      "name": "Conference Committee for SB 47",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1065",
+      "name": "Conference Committee for HB 1065",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1153",
+      "name": "Conference Committee for HB 1153",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_government_and_regulatory_reform_1000",
+      "name": "Government and Regulatory Reform",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1022",
+      "name": "Conference Committee for HB 1022",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_1300",
+      "name": "Local Government",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_178",
+      "name": "Conference Committee for SB 178",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council",
+      "name": "Legislative Council",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1326",
+      "name": "Conference Committee for HB 1326",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_184",
+      "name": "Conference Committee for SB 184",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1414",
+      "name": "Conference Committee for HB 1414",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1004",
+      "name": "Conference Committee for HB 1004",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_295",
+      "name": "Conference Committee for SB 295",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_319",
+      "name": "Conference Committee for SB 319",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_438",
+      "name": "Conference Committee for SB 438",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_homeland_security_transportation",
+      "name": "Homeland Security and Transportation",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_4800",
+      "name": "Environmental Affairs",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1066",
+      "name": "Conference Committee for HB 1066",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1332",
+      "name": "Conference Committee for HB 1332",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1131",
+      "name": "Conference Committee for HB 1131",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1070",
+      "name": "Conference Committee for HB 1070",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_select_committee_on_government_reduction_1900",
+      "name": "Select Committee on Government Reduction",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_environmental_affairs_interim_study_committee_on",
+      "name": "Environmental Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_4",
       "name": "Conference Committee for SB 4",
-      "chamber": "",
+      "chamber": "senate",
       "type": "conference",
       "non_lsa_staffed": false
     },
     {
-      "lpid": "conference_committee_for_hb_1003",
-      "name": "Conference Committee for HB 1003",
-      "chamber": "",
+      "lpid": "committee_committee_on_joint_rules",
+      "name": "Committee on Joint Rules",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1006",
+      "name": "Conference Committee for HB 1006",
+      "chamber": "house",
       "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_246",
+      "name": "Conference Committee for SB 246",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_agriculture_and_natural_resources_interim_study_committee_on",
+      "name": "Agriculture and Natural Resources, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_small_business_and_economic_development_0200",
+      "name": "Commerce, Small Business and Economic Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_financial_institutions_and_insurance_interim_study_committee_on",
+      "name": "Financial Institutions and Insurance, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_natural_resources_3100",
+      "name": "Agriculture",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_interstate_and_international_cooperation_2300",
+      "name": "Statutory Committee on Interstate and International Cooperation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_1200",
+      "name": "Judiciary",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1132",
+      "name": "Conference Committee for HB 1132",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_audit_and_financial_reporting_subcommittee",
+      "name": "Legislative Council, Audit and Financial Reporting Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_408",
+      "name": "Conference Committee for SB 408",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_and_apportionment_0500",
+      "name": "Elections and Apportionment",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_334",
+      "name": "Conference Committee for SB 334",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1157",
+      "name": "Conference Committee for HB 1157",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_technology",
+      "name": "Commerce and Technology",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_350",
+      "name": "Conference Committee for SB 350",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_335",
+      "name": "Conference Committee for SB 335",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_the_military",
+      "name": "Veterans Affairs and The Military",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_346",
+      "name": "Conference Committee for SB 346",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_health_1500",
+      "name": "Public Health",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_190",
+      "name": "Conference Committee for SB 190",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_1100",
+      "name": "Insurance",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_pension_management_oversight_interim_study_committee_on",
+      "name": "Pension Management Oversight, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedure_4700",
+      "name": "Rules and Legislative Procedure",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1372",
+      "name": "Conference Committee for HB 1372",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_and_energy_2000",
+      "name": "Utilities, Energy and Telecommunications",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1108",
+      "name": "Conference Committee for HB 1108",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_299",
+      "name": "Conference Committee for SB 299",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_safety_and_military_affairs_interim_study_committee_on",
+      "name": "Public Safety and Military Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_and_public_safety_2100",
+      "name": "Veterans Affairs and Public Safety",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_and_children",
+      "name": "Family and Children Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_3800",
+      "name": "Utilities",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_health_behavioral_health_and_human_services_interim_study_committee_on",
+      "name": "Public Health, Behavioral Health, and Human Services, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedures_1800",
+      "name": "Rules and Legislative Procedures",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1353",
+      "name": "Conference Committee for HB 1353",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_pensions_and_labor_4500",
+      "name": "Pensions and Labor",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_legislative_continuity_committee",
+      "name": "Legislative Continuity Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_0700",
+      "name": "Environmental Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1003",
+      "name": "Conference Committee for HB 1003",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_258",
+      "name": "Conference Committee for SB 258",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_383",
+      "name": "Conference Committee for SB 383",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_4000",
+      "name": "Insurance and Financial Institutions",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1092",
+      "name": "Conference Committee for HB 1092",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1385",
+      "name": "Conference Committee for HB 1385",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_243",
+      "name": "Conference Committee for SB 243",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_367",
+      "name": "Conference Committee for SB 367",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_0400",
+      "name": "Education",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_256",
+      "name": "Conference Committee for SB 256",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_personnel_subcommittee",
+      "name": "Legislative Council, Personnel Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_appropriations_3700",
+      "name": "Appropriations",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_probate_code_study_commission",
+      "name": "Probate Code Study Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_21st_century_energy_policy_development_task_force",
+      "name": "21st Century Energy Policy Development Task Force",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_code_revision_commission",
+      "name": "Code Revision Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ncsl_2020_legislative_summit_host_committee",
+      "name": "NCSL 2020 Legislative Summit Host Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1014",
+      "name": "Conference Committee for HB 1014",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_1",
+      "name": "Conference Committee for SB 1",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_80",
+      "name": "Conference Committee for SB 80",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_roads_and_transportation_interim_study_committee_on",
+      "name": "Roads and Transportation, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_employment_and_labor_interim_study_committee_on",
+      "name": "Employment and Labor, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_health_and_provider_services_3900",
+      "name": "Health and Provider Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_398",
+      "name": "Conference Committee for SB 398",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_4300",
+      "name": "Local Government",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1042",
+      "name": "Conference Committee for HB 1042",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_elections_interim_study_committee_on",
+      "name": "Elections, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_4200",
+      "name": "Judiciary",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ways_and_means_2200",
+      "name": "Ways and Means",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_1600",
+      "name": "Public Policy",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_corrections_and_criminal_code_interim_study_committee_on",
+      "name": "Corrections and Criminal Code, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_241",
+      "name": "Conference Committee for SB 241",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources",
+      "name": "Natural Resources",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1279",
+      "name": "Conference Committee for HB 1279",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_tax_and_fiscal_policy_4600",
+      "name": "Tax and Fiscal Policy",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_employment_labor_and_pensions_0600",
+      "name": "Employment, Labor and Pensions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_policy_interim_study_committee_on",
+      "name": "Public Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1045",
+      "name": "Conference Committee for HB 1045",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1419",
+      "name": "Conference Committee for HB 1419",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_and_career_development_3400",
+      "name": "Education and Career Development",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_3500",
+      "name": "Elections",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_courts_and_criminal_code_0300",
+      "name": "Courts and Criminal Code",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_government_interim_study_committee_on",
+      "name": "Government, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_space_utilization_subcommittee",
+      "name": "Legislative Council, Space Utilization Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1207",
+      "name": "Conference Committee for HB 1207",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_joint_rules_4900",
+      "name": "Joint Rules",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1113",
+      "name": "Conference Committee for HB 1113",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_132",
+      "name": "Conference Committee for SB 132",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_corrections_and_criminal_law_3000",
+      "name": "Corrections and Criminal Law",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_rural_development_0100",
+      "name": "Agriculture and Rural Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources_1400",
+      "name": "Natural Resources",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_school_funding_subcommittee",
+      "name": "School Funding Subcommittee",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1235",
+      "name": "Conference Committee for HB 1235",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_children_and_human_affairs_0800",
+      "name": "Family, Children and Human Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_433",
+      "name": "Conference Committee for SB 433",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_395",
+      "name": "Conference Committee for SB 395",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ethics_3600",
+      "name": "Ethics",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_data_processing_subcommittee",
+      "name": "Legislative Council, Technology Oversight Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    }
+  ],
+  "2018ss1_session_committees": [
+    {
+      "lpid": "committee_i_commerce_and_economic_development_interim_study_committee_on",
+      "name": "Commerce and Economic Development, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_fiscal_policy_interim_study_committee_on",
+      "name": "Fiscal Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_education_interim_study_committee_on",
+      "name": "Education, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_4400",
+      "name": "Public Policy 2018 SS1",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_10",
+      "name": "Conference Committee for SB 10",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_courts_and_the_judiciary_interim_study_committee_on",
+      "name": "Courts and the Judiciary, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_energy_utilities_and_telecommunications_interim_study_committee_on",
+      "name": "Energy, Utilities, and Telecommunications, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_financial_institutions_0900",
+      "name": "Financial Institutions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1222",
+      "name": "Conference Committee for HB 1222",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_237",
+      "name": "Conference Committee for SB 237",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_229",
+      "name": "Conference Committee for SB 229",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1008",
+      "name": "Conference Committee for HB 1008",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_ethics_2400",
+      "name": "Statutory Committee on Ethics",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_289",
+      "name": "Conference Committee for SB 289",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1348",
+      "name": "Conference Committee for HB 1348",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_roads_and_transportation_1700",
+      "name": "Roads and Transportation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_148",
+      "name": "Conference Committee for SB 148",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_340",
+      "name": "Conference Committee for SB 340",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_47",
+      "name": "Conference Committee for SB 47",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1065",
+      "name": "Conference Committee for HB 1065",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1153",
+      "name": "Conference Committee for HB 1153",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_government_and_regulatory_reform_1000",
+      "name": "Government and Regulatory Reform",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1022",
+      "name": "Conference Committee for HB 1022",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_1300",
+      "name": "Local Government",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_178",
+      "name": "Conference Committee for SB 178",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council",
+      "name": "Legislative Council",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1326",
+      "name": "Conference Committee for HB 1326",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_184",
+      "name": "Conference Committee for SB 184",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1414",
+      "name": "Conference Committee for HB 1414",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1004",
+      "name": "Conference Committee for HB 1004",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_295",
+      "name": "Conference Committee for SB 295",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_319",
+      "name": "Conference Committee for SB 319",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_438",
+      "name": "Conference Committee for SB 438",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_homeland_security_transportation",
+      "name": "Homeland Security and Transportation",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_4800",
+      "name": "Environmental Affairs",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1066",
+      "name": "Conference Committee for HB 1066",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1332",
+      "name": "Conference Committee for HB 1332",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1131",
+      "name": "Conference Committee for HB 1131",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1070",
+      "name": "Conference Committee for HB 1070",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_select_committee_on_government_reduction_1900",
+      "name": "Select Committee on Government Reduction",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_environmental_affairs_interim_study_committee_on",
+      "name": "Environmental Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_4",
+      "name": "Conference Committee for SB 4",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_committee_on_joint_rules",
+      "name": "Committee on Joint Rules",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1006",
+      "name": "Conference Committee for HB 1006",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_246",
+      "name": "Conference Committee for SB 246",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_agriculture_and_natural_resources_interim_study_committee_on",
+      "name": "Agriculture and Natural Resources, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_small_business_and_economic_development_0200",
+      "name": "Commerce, Small Business and Economic Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_financial_institutions_and_insurance_interim_study_committee_on",
+      "name": "Financial Institutions and Insurance, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_natural_resources_3100",
+      "name": "Agriculture",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_interstate_and_international_cooperation_2300",
+      "name": "Statutory Committee on Interstate and International Cooperation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_1200",
+      "name": "Judiciary",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1132",
+      "name": "Conference Committee for HB 1132",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_audit_and_financial_reporting_subcommittee",
+      "name": "Legislative Council, Audit and Financial Reporting Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_408",
+      "name": "Conference Committee for SB 408",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_and_apportionment_0500",
+      "name": "Elections and Apportionment",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_334",
+      "name": "Conference Committee for SB 334",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1157",
+      "name": "Conference Committee for HB 1157",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_technology",
+      "name": "Commerce and Technology",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_350",
+      "name": "Conference Committee for SB 350",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_335",
+      "name": "Conference Committee for SB 335",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_the_military",
+      "name": "Veterans Affairs and The Military",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_346",
+      "name": "Conference Committee for SB 346",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_health_1500",
+      "name": "Public Health",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_190",
+      "name": "Conference Committee for SB 190",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_1100",
+      "name": "Insurance",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_pension_management_oversight_interim_study_committee_on",
+      "name": "Pension Management Oversight, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedure_4700",
+      "name": "Rules and Legislative Procedure",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1372",
+      "name": "Conference Committee for HB 1372",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_and_energy_2000",
+      "name": "Utilities, Energy and Telecommunications",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1108",
+      "name": "Conference Committee for HB 1108",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_299",
+      "name": "Conference Committee for SB 299",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_safety_and_military_affairs_interim_study_committee_on",
+      "name": "Public Safety and Military Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_and_public_safety_2100",
+      "name": "Veterans Affairs and Public Safety",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_and_children",
+      "name": "Family and Children Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_3800",
+      "name": "Utilities",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_health_behavioral_health_and_human_services_interim_study_committee_on",
+      "name": "Public Health, Behavioral Health, and Human Services, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedures_1800",
+      "name": "Rules and Legislative Procedures",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1353",
+      "name": "Conference Committee for HB 1353",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_pensions_and_labor_4500",
+      "name": "Pensions and Labor",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_legislative_continuity_committee",
+      "name": "Legislative Continuity Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_0700",
+      "name": "Environmental Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1003",
+      "name": "Conference Committee for HB 1003",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_258",
+      "name": "Conference Committee for SB 258",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_383",
+      "name": "Conference Committee for SB 383",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_4000",
+      "name": "Insurance and Financial Institutions",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1092",
+      "name": "Conference Committee for HB 1092",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1385",
+      "name": "Conference Committee for HB 1385",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_243",
+      "name": "Conference Committee for SB 243",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_367",
+      "name": "Conference Committee for SB 367",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_0400",
+      "name": "Education",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_256",
+      "name": "Conference Committee for SB 256",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_personnel_subcommittee",
+      "name": "Legislative Council, Personnel Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_appropriations_3700",
+      "name": "Appropriations",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_probate_code_study_commission",
+      "name": "Probate Code Study Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_21st_century_energy_policy_development_task_force",
+      "name": "21st Century Energy Policy Development Task Force",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_code_revision_commission",
+      "name": "Code Revision Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ncsl_2020_legislative_summit_host_committee",
+      "name": "NCSL 2020 Legislative Summit Host Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1014",
+      "name": "Conference Committee for HB 1014",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_1",
+      "name": "Conference Committee for SB 1",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_80",
+      "name": "Conference Committee for SB 80",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_roads_and_transportation_interim_study_committee_on",
+      "name": "Roads and Transportation, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_employment_and_labor_interim_study_committee_on",
+      "name": "Employment and Labor, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_health_and_provider_services_3900",
+      "name": "Health and Provider Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_398",
+      "name": "Conference Committee for SB 398",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_4300",
+      "name": "Local Government",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1042",
+      "name": "Conference Committee for HB 1042",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_elections_interim_study_committee_on",
+      "name": "Elections, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_4200",
+      "name": "Judiciary",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ways_and_means_2200",
+      "name": "Ways and Means",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_1600",
+      "name": "Public Policy",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_corrections_and_criminal_code_interim_study_committee_on",
+      "name": "Corrections and Criminal Code, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_241",
+      "name": "Conference Committee for SB 241",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources",
+      "name": "Natural Resources",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1279",
+      "name": "Conference Committee for HB 1279",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_tax_and_fiscal_policy_4600",
+      "name": "Tax and Fiscal Policy",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_employment_labor_and_pensions_0600",
+      "name": "Employment, Labor and Pensions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_policy_interim_study_committee_on",
+      "name": "Public Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1045",
+      "name": "Conference Committee for HB 1045",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1419",
+      "name": "Conference Committee for HB 1419",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_and_career_development_3400",
+      "name": "Education and Career Development",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_3500",
+      "name": "Elections",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_courts_and_criminal_code_0300",
+      "name": "Courts and Criminal Code",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_government_interim_study_committee_on",
+      "name": "Government, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_space_utilization_subcommittee",
+      "name": "Legislative Council, Space Utilization Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1207",
+      "name": "Conference Committee for HB 1207",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_joint_rules_4900",
+      "name": "Joint Rules",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1113",
+      "name": "Conference Committee for HB 1113",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_132",
+      "name": "Conference Committee for SB 132",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_corrections_and_criminal_law_3000",
+      "name": "Corrections and Criminal Law",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_rural_development_0100",
+      "name": "Agriculture and Rural Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources_1400",
+      "name": "Natural Resources",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_school_funding_subcommittee",
+      "name": "School Funding Subcommittee",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1235",
+      "name": "Conference Committee for HB 1235",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_children_and_human_affairs_0800",
+      "name": "Family, Children and Human Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_433",
+      "name": "Conference Committee for SB 433",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_395",
+      "name": "Conference Committee for SB 395",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ethics_3600",
+      "name": "Ethics",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_data_processing_subcommittee",
+      "name": "Legislative Council, Technology Oversight Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    }
+  ],
+  "2017_session_committees": [
+    {
+      "lpid": "committee_i_commerce_and_economic_development_interim_study_committee_on",
+      "name": "Commerce and Economic Development, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_fiscal_policy_interim_study_committee_on",
+      "name": "Fiscal Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_education_interim_study_committee_on",
+      "name": "Education, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_4400",
+      "name": "Public Policy 2017",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_10",
+      "name": "Conference Committee for SB 10",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_courts_and_the_judiciary_interim_study_committee_on",
+      "name": "Courts and the Judiciary, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_energy_utilities_and_telecommunications_interim_study_committee_on",
+      "name": "Energy, Utilities, and Telecommunications, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_financial_institutions_0900",
+      "name": "Financial Institutions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1222",
+      "name": "Conference Committee for HB 1222",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_237",
+      "name": "Conference Committee for SB 237",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_229",
+      "name": "Conference Committee for SB 229",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1008",
+      "name": "Conference Committee for HB 1008",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_ethics_2400",
+      "name": "Statutory Committee on Ethics",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_289",
+      "name": "Conference Committee for SB 289",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1348",
+      "name": "Conference Committee for HB 1348",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_roads_and_transportation_1700",
+      "name": "Roads and Transportation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_148",
+      "name": "Conference Committee for SB 148",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_340",
+      "name": "Conference Committee for SB 340",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_47",
+      "name": "Conference Committee for SB 47",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1065",
+      "name": "Conference Committee for HB 1065",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1153",
+      "name": "Conference Committee for HB 1153",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_government_and_regulatory_reform_1000",
+      "name": "Government and Regulatory Reform",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1022",
+      "name": "Conference Committee for HB 1022",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_1300",
+      "name": "Local Government",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_178",
+      "name": "Conference Committee for SB 178",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council",
+      "name": "Legislative Council",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1326",
+      "name": "Conference Committee for HB 1326",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_184",
+      "name": "Conference Committee for SB 184",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1414",
+      "name": "Conference Committee for HB 1414",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1004",
+      "name": "Conference Committee for HB 1004",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_295",
+      "name": "Conference Committee for SB 295",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_319",
+      "name": "Conference Committee for SB 319",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_438",
+      "name": "Conference Committee for SB 438",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_homeland_security_transportation",
+      "name": "Homeland Security and Transportation",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_4800",
+      "name": "Environmental Affairs",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1066",
+      "name": "Conference Committee for HB 1066",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1332",
+      "name": "Conference Committee for HB 1332",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1131",
+      "name": "Conference Committee for HB 1131",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1070",
+      "name": "Conference Committee for HB 1070",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_select_committee_on_government_reduction_1900",
+      "name": "Select Committee on Government Reduction",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_environmental_affairs_interim_study_committee_on",
+      "name": "Environmental Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_4",
+      "name": "Conference Committee for SB 4",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_committee_on_joint_rules",
+      "name": "Committee on Joint Rules",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1006",
+      "name": "Conference Committee for HB 1006",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_246",
+      "name": "Conference Committee for SB 246",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_agriculture_and_natural_resources_interim_study_committee_on",
+      "name": "Agriculture and Natural Resources, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_small_business_and_economic_development_0200",
+      "name": "Commerce, Small Business and Economic Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_financial_institutions_and_insurance_interim_study_committee_on",
+      "name": "Financial Institutions and Insurance, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_natural_resources_3100",
+      "name": "Agriculture",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_interstate_and_international_cooperation_2300",
+      "name": "Statutory Committee on Interstate and International Cooperation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_1200",
+      "name": "Judiciary",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1132",
+      "name": "Conference Committee for HB 1132",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_audit_and_financial_reporting_subcommittee",
+      "name": "Legislative Council, Audit and Financial Reporting Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_408",
+      "name": "Conference Committee for SB 408",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_and_apportionment_0500",
+      "name": "Elections and Apportionment",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_334",
+      "name": "Conference Committee for SB 334",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1157",
+      "name": "Conference Committee for HB 1157",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_technology",
+      "name": "Commerce and Technology",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_350",
+      "name": "Conference Committee for SB 350",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_335",
+      "name": "Conference Committee for SB 335",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_the_military",
+      "name": "Veterans Affairs and The Military",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_346",
+      "name": "Conference Committee for SB 346",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_health_1500",
+      "name": "Public Health",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_190",
+      "name": "Conference Committee for SB 190",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_1100",
+      "name": "Insurance",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_pension_management_oversight_interim_study_committee_on",
+      "name": "Pension Management Oversight, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedure_4700",
+      "name": "Rules and Legislative Procedure",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1372",
+      "name": "Conference Committee for HB 1372",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_and_energy_2000",
+      "name": "Utilities, Energy and Telecommunications",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1108",
+      "name": "Conference Committee for HB 1108",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_299",
+      "name": "Conference Committee for SB 299",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_safety_and_military_affairs_interim_study_committee_on",
+      "name": "Public Safety and Military Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_and_public_safety_2100",
+      "name": "Veterans Affairs and Public Safety",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_and_children",
+      "name": "Family and Children Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_3800",
+      "name": "Utilities",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_health_behavioral_health_and_human_services_interim_study_committee_on",
+      "name": "Public Health, Behavioral Health, and Human Services, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedures_1800",
+      "name": "Rules and Legislative Procedures",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1353",
+      "name": "Conference Committee for HB 1353",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_pensions_and_labor_4500",
+      "name": "Pensions and Labor",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_legislative_continuity_committee",
+      "name": "Legislative Continuity Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_0700",
+      "name": "Environmental Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1003",
+      "name": "Conference Committee for HB 1003",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_258",
+      "name": "Conference Committee for SB 258",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_383",
+      "name": "Conference Committee for SB 383",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_4000",
+      "name": "Insurance and Financial Institutions",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1092",
+      "name": "Conference Committee for HB 1092",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1385",
+      "name": "Conference Committee for HB 1385",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_243",
+      "name": "Conference Committee for SB 243",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_367",
+      "name": "Conference Committee for SB 367",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_0400",
+      "name": "Education",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_256",
+      "name": "Conference Committee for SB 256",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_personnel_subcommittee",
+      "name": "Legislative Council, Personnel Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_appropriations_3700",
+      "name": "Appropriations",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_probate_code_study_commission",
+      "name": "Probate Code Study Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_21st_century_energy_policy_development_task_force",
+      "name": "21st Century Energy Policy Development Task Force",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_code_revision_commission",
+      "name": "Code Revision Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ncsl_2020_legislative_summit_host_committee",
+      "name": "NCSL 2020 Legislative Summit Host Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1014",
+      "name": "Conference Committee for HB 1014",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_1",
+      "name": "Conference Committee for SB 1",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_80",
+      "name": "Conference Committee for SB 80",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_roads_and_transportation_interim_study_committee_on",
+      "name": "Roads and Transportation, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_employment_and_labor_interim_study_committee_on",
+      "name": "Employment and Labor, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_health_and_provider_services_3900",
+      "name": "Health and Provider Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_398",
+      "name": "Conference Committee for SB 398",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_4300",
+      "name": "Local Government",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1042",
+      "name": "Conference Committee for HB 1042",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_elections_interim_study_committee_on",
+      "name": "Elections, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_4200",
+      "name": "Judiciary",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ways_and_means_2200",
+      "name": "Ways and Means",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_1600",
+      "name": "Public Policy",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_corrections_and_criminal_code_interim_study_committee_on",
+      "name": "Corrections and Criminal Code, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_241",
+      "name": "Conference Committee for SB 241",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources",
+      "name": "Natural Resources",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1279",
+      "name": "Conference Committee for HB 1279",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_tax_and_fiscal_policy_4600",
+      "name": "Tax and Fiscal Policy",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_employment_labor_and_pensions_0600",
+      "name": "Employment, Labor and Pensions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_policy_interim_study_committee_on",
+      "name": "Public Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1045",
+      "name": "Conference Committee for HB 1045",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1419",
+      "name": "Conference Committee for HB 1419",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_and_career_development_3400",
+      "name": "Education and Career Development",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_3500",
+      "name": "Elections",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_courts_and_criminal_code_0300",
+      "name": "Courts and Criminal Code",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_government_interim_study_committee_on",
+      "name": "Government, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_space_utilization_subcommittee",
+      "name": "Legislative Council, Space Utilization Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1207",
+      "name": "Conference Committee for HB 1207",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_joint_rules_4900",
+      "name": "Joint Rules",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1113",
+      "name": "Conference Committee for HB 1113",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_132",
+      "name": "Conference Committee for SB 132",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_corrections_and_criminal_law_3000",
+      "name": "Corrections and Criminal Law",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_rural_development_0100",
+      "name": "Agriculture and Rural Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources_1400",
+      "name": "Natural Resources",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_school_funding_subcommittee",
+      "name": "School Funding Subcommittee",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1235",
+      "name": "Conference Committee for HB 1235",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_children_and_human_affairs_0800",
+      "name": "Family, Children and Human Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_433",
+      "name": "Conference Committee for SB 433",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_395",
+      "name": "Conference Committee for SB 395",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ethics_3600",
+      "name": "Ethics",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_data_processing_subcommittee",
+      "name": "Legislative Council, Technology Oversight Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    }
+  ],
+  "2016_session_committees": [
+    {
+      "lpid": "committee_i_commerce_and_economic_development_interim_study_committee_on",
+      "name": "Commerce and Economic Development, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_fiscal_policy_interim_study_committee_on",
+      "name": "Fiscal Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_education_interim_study_committee_on",
+      "name": "Education, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_4400",
+      "name": "Public Policy 2016",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_10",
+      "name": "Conference Committee for SB 10",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_courts_and_the_judiciary_interim_study_committee_on",
+      "name": "Courts and the Judiciary, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_energy_utilities_and_telecommunications_interim_study_committee_on",
+      "name": "Energy, Utilities, and Telecommunications, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_financial_institutions_0900",
+      "name": "Financial Institutions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1222",
+      "name": "Conference Committee for HB 1222",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_237",
+      "name": "Conference Committee for SB 237",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_229",
+      "name": "Conference Committee for SB 229",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1008",
+      "name": "Conference Committee for HB 1008",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_ethics_2400",
+      "name": "Statutory Committee on Ethics",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_289",
+      "name": "Conference Committee for SB 289",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1348",
+      "name": "Conference Committee for HB 1348",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_roads_and_transportation_1700",
+      "name": "Roads and Transportation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_148",
+      "name": "Conference Committee for SB 148",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_340",
+      "name": "Conference Committee for SB 340",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_47",
+      "name": "Conference Committee for SB 47",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1065",
+      "name": "Conference Committee for HB 1065",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1153",
+      "name": "Conference Committee for HB 1153",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_government_and_regulatory_reform_1000",
+      "name": "Government and Regulatory Reform",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1022",
+      "name": "Conference Committee for HB 1022",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_1300",
+      "name": "Local Government",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_178",
+      "name": "Conference Committee for SB 178",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council",
+      "name": "Legislative Council",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1326",
+      "name": "Conference Committee for HB 1326",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_184",
+      "name": "Conference Committee for SB 184",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1414",
+      "name": "Conference Committee for HB 1414",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1004",
+      "name": "Conference Committee for HB 1004",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_295",
+      "name": "Conference Committee for SB 295",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_319",
+      "name": "Conference Committee for SB 319",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_438",
+      "name": "Conference Committee for SB 438",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_homeland_security_transportation",
+      "name": "Homeland Security and Transportation",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_4800",
+      "name": "Environmental Affairs",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1066",
+      "name": "Conference Committee for HB 1066",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1332",
+      "name": "Conference Committee for HB 1332",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1131",
+      "name": "Conference Committee for HB 1131",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1070",
+      "name": "Conference Committee for HB 1070",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_select_committee_on_government_reduction_1900",
+      "name": "Select Committee on Government Reduction",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_environmental_affairs_interim_study_committee_on",
+      "name": "Environmental Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_4",
+      "name": "Conference Committee for SB 4",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_committee_on_joint_rules",
+      "name": "Committee on Joint Rules",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1006",
+      "name": "Conference Committee for HB 1006",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_246",
+      "name": "Conference Committee for SB 246",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_agriculture_and_natural_resources_interim_study_committee_on",
+      "name": "Agriculture and Natural Resources, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_small_business_and_economic_development_0200",
+      "name": "Commerce, Small Business and Economic Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_financial_institutions_and_insurance_interim_study_committee_on",
+      "name": "Financial Institutions and Insurance, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_natural_resources_3100",
+      "name": "Agriculture",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_statutory_committee_on_interstate_and_international_cooperation_2300",
+      "name": "Statutory Committee on Interstate and International Cooperation",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_1200",
+      "name": "Judiciary",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1132",
+      "name": "Conference Committee for HB 1132",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_audit_and_financial_reporting_subcommittee",
+      "name": "Legislative Council, Audit and Financial Reporting Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_408",
+      "name": "Conference Committee for SB 408",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_and_apportionment_0500",
+      "name": "Elections and Apportionment",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_334",
+      "name": "Conference Committee for SB 334",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1157",
+      "name": "Conference Committee for HB 1157",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_commerce_technology",
+      "name": "Commerce and Technology",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_350",
+      "name": "Conference Committee for SB 350",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_335",
+      "name": "Conference Committee for SB 335",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_the_military",
+      "name": "Veterans Affairs and The Military",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_346",
+      "name": "Conference Committee for SB 346",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_health_1500",
+      "name": "Public Health",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_190",
+      "name": "Conference Committee for SB 190",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_1100",
+      "name": "Insurance",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_pension_management_oversight_interim_study_committee_on",
+      "name": "Pension Management Oversight, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedure_4700",
+      "name": "Rules and Legislative Procedure",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1372",
+      "name": "Conference Committee for HB 1372",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_and_energy_2000",
+      "name": "Utilities, Energy and Telecommunications",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1108",
+      "name": "Conference Committee for HB 1108",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_299",
+      "name": "Conference Committee for SB 299",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_safety_and_military_affairs_interim_study_committee_on",
+      "name": "Public Safety and Military Affairs, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_veterans_affairs_and_public_safety_2100",
+      "name": "Veterans Affairs and Public Safety",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_and_children",
+      "name": "Family and Children Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_utilities_3800",
+      "name": "Utilities",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_health_behavioral_health_and_human_services_interim_study_committee_on",
+      "name": "Public Health, Behavioral Health, and Human Services, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_rules_and_legislative_procedures_1800",
+      "name": "Rules and Legislative Procedures",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1353",
+      "name": "Conference Committee for HB 1353",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_pensions_and_labor_4500",
+      "name": "Pensions and Labor",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_legislative_continuity_committee",
+      "name": "Legislative Continuity Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_environmental_affairs_0700",
+      "name": "Environmental Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1003",
+      "name": "Conference Committee for HB 1003",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_258",
+      "name": "Conference Committee for SB 258",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_383",
+      "name": "Conference Committee for SB 383",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_insurance_4000",
+      "name": "Insurance and Financial Institutions",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1092",
+      "name": "Conference Committee for HB 1092",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1385",
+      "name": "Conference Committee for HB 1385",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_243",
+      "name": "Conference Committee for SB 243",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_367",
+      "name": "Conference Committee for SB 367",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_0400",
+      "name": "Education",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_256",
+      "name": "Conference Committee for SB 256",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_personnel_subcommittee",
+      "name": "Legislative Council, Personnel Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_appropriations_3700",
+      "name": "Appropriations",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_probate_code_study_commission",
+      "name": "Probate Code Study Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_21st_century_energy_policy_development_task_force",
+      "name": "21st Century Energy Policy Development Task Force",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_code_revision_commission",
+      "name": "Code Revision Commission",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ncsl_2020_legislative_summit_host_committee",
+      "name": "NCSL 2020 Legislative Summit Host Committee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1014",
+      "name": "Conference Committee for HB 1014",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_1",
+      "name": "Conference Committee for SB 1",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_80",
+      "name": "Conference Committee for SB 80",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_roads_and_transportation_interim_study_committee_on",
+      "name": "Roads and Transportation, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_employment_and_labor_interim_study_committee_on",
+      "name": "Employment and Labor, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_health_and_provider_services_3900",
+      "name": "Health and Provider Services",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_398",
+      "name": "Conference Committee for SB 398",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_local_government_4300",
+      "name": "Local Government",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1042",
+      "name": "Conference Committee for HB 1042",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_elections_interim_study_committee_on",
+      "name": "Elections, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_judiciary_4200",
+      "name": "Judiciary",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ways_and_means_2200",
+      "name": "Ways and Means",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_public_policy_1600",
+      "name": "Public Policy",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_corrections_and_criminal_code_interim_study_committee_on",
+      "name": "Corrections and Criminal Code, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_241",
+      "name": "Conference Committee for SB 241",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources",
+      "name": "Natural Resources",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1279",
+      "name": "Conference Committee for HB 1279",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_tax_and_fiscal_policy_4600",
+      "name": "Tax and Fiscal Policy",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_employment_labor_and_pensions_0600",
+      "name": "Employment, Labor and Pensions",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_public_policy_interim_study_committee_on",
+      "name": "Public Policy, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1045",
+      "name": "Conference Committee for HB 1045",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1419",
+      "name": "Conference Committee for HB 1419",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_education_and_career_development_3400",
+      "name": "Education and Career Development",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_elections_3500",
+      "name": "Elections",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_courts_and_criminal_code_0300",
+      "name": "Courts and Criminal Code",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_government_interim_study_committee_on",
+      "name": "Government, Interim Study Committee on",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_space_utilization_subcommittee",
+      "name": "Legislative Council, Space Utilization Subcommittee",
+      "chamber": "",
+      "type": "interim",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1207",
+      "name": "Conference Committee for HB 1207",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_joint_rules_4900",
+      "name": "Joint Rules",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1113",
+      "name": "Conference Committee for HB 1113",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_132",
+      "name": "Conference Committee for SB 132",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_corrections_and_criminal_law_3000",
+      "name": "Corrections and Criminal Law",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_agriculture_and_rural_development_0100",
+      "name": "Agriculture and Rural Development",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_natural_resources_1400",
+      "name": "Natural Resources",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_school_funding_subcommittee",
+      "name": "School Funding Subcommittee",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_hb_1235",
+      "name": "Conference Committee for HB 1235",
+      "chamber": "house",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_family_children_and_human_affairs_0800",
+      "name": "Family, Children and Human Affairs",
+      "chamber": "house",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_433",
+      "name": "Conference Committee for SB 433",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_conference_committee_for_sb_395",
+      "name": "Conference Committee for SB 395",
+      "chamber": "senate",
+      "type": "conference",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_ethics_3600",
+      "name": "Ethics",
+      "chamber": "senate",
+      "type": "standing",
+      "non_lsa_staffed": false
+    },
+    {
+      "lpid": "committee_i_legislative_council_data_processing_subcommittee",
+      "name": "Legislative Council, Technology Oversight Subcommittee",
+      "chamber": "",
+      "type": "interim",
       "non_lsa_staffed": false
     }
   ]

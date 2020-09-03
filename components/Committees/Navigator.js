@@ -20,10 +20,14 @@ const Navigator = () => {
                 {currentSession.name}
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                  {console.log(router.pathname)}
+                    <Dropdown.Item>
+                        <Link href="/committees">
+                            <a>2020 Session</a>
+                        </Link>
+                    </Dropdown.Item>
                   {pastSessions.map(({ name, year }) => (
                       <Dropdown.Item>
-                        <Link href="[router]/[year]" as={`${router}/${year}`}>
+                        <Link href="/archives/[year]" as={`/archives/${year}`}>
                             <a>{name}</a>
                         </Link>
                     </Dropdown.Item>
