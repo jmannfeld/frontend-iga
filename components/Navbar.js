@@ -356,15 +356,13 @@ const Navbar = () => (
         overflow: hidden;
       }
         
-      @media screen and (max-width: 1500px) {
+      @media screen and (max-width: 800px) {
         #standing-menu {
-          left: 0%;
-          top: auto;
+          display: none;
         }
 
         #interim-menu {
-          left: 0%;
-          top: auto;
+          display: none;
         }
       }
     `}</style>
