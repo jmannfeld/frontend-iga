@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "json_server": "json-server --watch db.json --port 3004"
+    "json_server": "json-server --watch db.json --port 3004 --routes routes.json"
   },
   "keywords": [],
   "author": "",
