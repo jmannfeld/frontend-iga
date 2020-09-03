@@ -13,6 +13,15 @@ const CommitteeListGroup = ({title, committees, width}) => (
         committees={committees.slice(Math.ceil(committees.length / 2))}/>
     </div>
 
+    {/*<div className={`${title === "" ? "mt-3" : ""}`}>*/}
+    {/*  <CommitteeList*/}
+    {/*    committees={committees.slice(0, Math.ceil(committees.length / 2))}/>*/}
+    {/*</div>*/}
+    {/*<div className={`${title === "" ? "mt-3" : ""}`}>*/}
+    {/*  <CommitteeList*/}
+    {/*    committees={committees.slice(Math.ceil(committees.length / 2))}/>*/}
+    {/*</div>*/}
+
     <style jsx>{`
       .list {
         background-color: #c9cad8;
