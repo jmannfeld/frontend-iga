@@ -5,6 +5,8 @@ import {Context} from "../../components/Utils/Context";
 import CommitteeList from "../../components/Committees/CommitteeList";
 import CommitteeListGroup from "../../components/Committees/CommitteeListGroup";
 
+const screen_width = screen.width;
+
 class Committees extends React.Component {
   componentDidMount() {
     this.context.setCommitteeActive("");
@@ -21,14 +23,14 @@ class Committees extends React.Component {
             <div className="col-6 d-flex">
               <Context.Consumer>
                 {(context) => (
-                  <CommitteeListGroup title="Senate" committees={context.state.senate_standing_committees} />
+                  <CommitteeListGroup title="Senate" committees={context.state.senate_standing_committees} width={screen_width} />
                 )}
               </Context.Consumer>
             </div>
             <div className="col-6 d-flex">
               <Context.Consumer>
                 {(context) => (
-                  <CommitteeListGroup title="House" committees={context.state.house_standing_committees} />
+                  <CommitteeListGroup title="House" committees={context.state.house_standing_committees} width={screen_width} />
                 )}
               </Context.Consumer>
             </div>
@@ -40,14 +42,14 @@ class Committees extends React.Component {
             <div className="col-6 d-flex">
               <Context.Consumer>
                 {(context) => (
-                  <CommitteeListGroup title="Senate" committees={context.state.conference_committees.filter(committee => committee.chamber === "senate")} />
+                  <CommitteeListGroup title="Senate" committees={context.state.conference_committees.filter(committee => committee.chamber === "senate")} width={screen_width}/>
                 )}
               </Context.Consumer>
             </div>
             <div className="col-6 d-flex">
               <Context.Consumer>
                 {(context) => (
-                  <CommitteeListGroup title="House" committees={context.state.conference_committees.filter(committee => committee.chamber === "house")} />
+                  <CommitteeListGroup title="House" committees={context.state.conference_committees.filter(committee => committee.chamber === "house")} width={screen_width}/>
                 )}
               </Context.Consumer>
             </div>
@@ -59,7 +61,7 @@ class Committees extends React.Component {
             <div className="col-12">
               <Context.Consumer>
                 {(context) => (
-                  <CommitteeListGroup title="" committees={context.state.interim_legislative_committees} />
+                  <CommitteeListGroup title="" committees={context.state.interim_legislative_committees} width={screen_width}/>
                 )}
               </Context.Consumer>
             </div>
