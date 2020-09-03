@@ -13,9 +13,6 @@ const CommitteeListGroup = ({title, committees, width}) => (
         committees={committees.slice(Math.ceil(committees.length / 2))}/>
     </div>
 
-    {/*<CommitteeList*/}
-    {/*    committees={committees}/>*/}
-
     <style jsx>{`
       .list {
         background-color: #c9cad8;

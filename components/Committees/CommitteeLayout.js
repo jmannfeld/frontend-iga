@@ -13,11 +13,9 @@ const CommitteeLayout = props => {
       </Head>
       <div className="container-fluid content h-100 py-3">
         <div className="row h-100">
-          {/*<div className={`${size > 1000 ? "col-2": ""}`}>*/}
-          <div className="col-2">
+          <div className={`${size.width > 1000 ? "col-2": ""}`}>
             <Navigator/>
           </div>
-          {/*</div>*/}
           <div className="col-10 px-3 py-3">{props.children}</div>
         </div>
       </div>
