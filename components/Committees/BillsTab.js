@@ -9,7 +9,11 @@ function BillsTab(props) {
   // this useEffect will run once
   // similar to componentDidMount()
   useEffect(() => {
-    fetch('http://localhost:3004/bills')
+    fetch(
+      `https://iaj822wghd.execute-api.us-east-1.amazonaws.com/getBillsAssignedToCommittee?cmte_lpid=${
+        props.committeeLpid
+      }`
+    )
       .then(res => res.json())
       .then(
         result => {
