@@ -14,45 +14,48 @@ function CommitteeArchivePage(props) {
     return (
     <CommitteeLayout>
     <div className="container-fluid">
-        <h4 className="col-12 text-center my-2">Standing Committees</h4>
-        <div className="col-6 mt-3">
+        <div className="row">
+            <h4 className="col-12 text-center my-2">Standing Committees</h4>
 
-              <div className="row list m-2 d-flex align-content-start">
-              <h4 className="col-12 text-center my-2">Senate</h4>
+            <div className="col-6 mt-3 col">
+                  <div className="row list m-2 d-flex align-content-start senate-standing-committees">
+                  <h4 className="col-12 text-center my-2">Senate</h4>
 
-                <div className="col-6 mt-3">
-                  <CommitteeList
-                    committees={props.senate_standing_committees.slice(0, Math.ceil(props.senate_standing_committees.length / 2))}/>
-                </div>
-                <div className="col-6 mt-3">
-                  <CommitteeList
-                    committees={props.senate_standing_committees.slice(Math.ceil(props.senate_standing_committees.length / 2))}/>
-                </div>
-
-
-               </div>
-
-              <div className="row list m-2 d-flex align-content-start">
-              <h4 className="col-12 text-center my-2">House</h4>
-
-                <div className="col-6 mt-3">
-                  <CommitteeList
-                    committees={props.house_standing_committees.slice(0, Math.ceil(props.house_standing_committees.length / 2))}/>
-                </div>
-                <div className="col-6 mt-3">
-                  <CommitteeList
-                    committees={props.house_standing_committees.slice(Math.ceil(props.house_standing_committees.length / 2))}/>
-                </div>
+                    <div className="col-6 mt-3">
+                      <CommitteeList
+                        committees={props.senate_standing_committees.slice(0, Math.ceil(props.senate_standing_committees.length / 2))}/>
+                    </div>
+                    <div className="col-6 mt-3">
+                      <CommitteeList
+                        committees={props.senate_standing_committees.slice(Math.ceil(props.senate_standing_committees.length / 2))}/>
+                    </div>
 
 
-               </div>
+                   </div>
+            </div>
+            <div className="col-6 mt-3 col">
+                  <div className="row list m-2 d-flex align-content-start house-standing-committees">
+                  <h4 className="col-12 text-center my-2">House</h4>
 
+                    <div className="col-6 mt-3">
+                      <CommitteeList
+                        committees={props.house_standing_committees.slice(0, Math.ceil(props.house_standing_committees.length / 2))}/>
+                    </div>
+                    <div className="col-6 mt-3">
+                      <CommitteeList
+                        committees={props.house_standing_committees.slice(Math.ceil(props.house_standing_committees.length / 2))}/>
+                    </div>
+
+
+                   </div>
+            </div>
         </div>
 
-        <h4 className="col-12 text-center my-2">Conference Committees</h4>
-        <div className="col-6 mt-3">
+        <div className="row">
+            <h4 className="col-12 text-center my-2">Conference Committees</h4>
+            <div className="col-6 mt-3 col">
 
-              <div className="row list m-2 d-flex align-content-start">
+              <div className="row list m-2 d-flex align-content-start senate-conference-committees">
               <h4 className="col-12 text-center my-2">Senate</h4>
 
                 <div className="col-6 mt-3">
@@ -66,8 +69,10 @@ function CommitteeArchivePage(props) {
 
 
                </div>
+            </div>
 
-              <div className="row list m-2 d-flex align-content-start">
+            <div className="col-6 mt-3 col">
+              <div className="row list m-2 d-flex align-content-start house-conference-committees">
               <h4 className="col-12 text-center my-2">House</h4>
 
                 <div className="col-6 mt-3">
@@ -83,40 +88,27 @@ function CommitteeArchivePage(props) {
                </div>
 
         </div>
-
-
-        <h4 className="col-12 text-center my-2">Interim Committees</h4>
-        <div className="col-12 mt-3">
-
-              <div className="row list m-2 d-flex align-content-start">
-
-                <div className="col-6 mt-3">
-                  <CommitteeList
-                    committees={props.interim_legislative_committees.slice(0, Math.ceil(props.interim_legislative_committees.length / 2))}/>
-                </div>
-                <div className="col-12 mt-3">
-                  <CommitteeList
-                    committees={props.interim_legislative_committees.slice(Math.ceil(props.interim_legislative_committees.length / 2))}/>
-                </div>
-
-
-               </div>
-
         </div>
 
-              <h4 className="col-12 text-center my-2">Interim Committees</h4>
-        <div className="row list m-2 d-flex align-content-start">
-              <div className="col-12 mt-3">
+        <div className="row">
+            <h4 className="col-12 text-center my-2">Interim Committees</h4>
+            <div className="col-12 mt-3">
 
-              <div className="col-6 mt-3">
-                  <CommitteeList
-                    committees={props.interim_other_committees.slice(0, Math.ceil(props.interim_other_committees.length / 2))}/>
-                </div>
-                <div className="col-6 mt-3">
-                  <CommitteeList
-                    committees={props.interim_other_committees.slice(Math.ceil(props.interim_other_committees.length / 2))}/>
-                </div>
-              </div>
+                  <div className="row list m-2 d-flex align-content-start">
+
+                    <div className="col-6 mt-3">
+                      <CommitteeList
+                        committees={props.interim_legislative_committees.slice(0, Math.ceil(props.interim_legislative_committees.length / 2))}/>
+                    </div>
+                    <div className="col-6 mt-3">
+                      <CommitteeList
+                        committees={props.interim_legislative_committees.slice(Math.ceil(props.interim_legislative_committees.length / 2))}/>
+                    </div>
+
+
+                   </div>
+
+            </div>
         </div>
 
         </div>
@@ -135,6 +127,17 @@ function CommitteeArchivePage(props) {
           .list-group-item-action:hover {
             background-color: white;
           }
+          .row {
+              display: flex;
+              padding-top: 10px;
+            }
+          .senate-standing-committees,
+          .house-standing-committees,
+          .senate-conference-committees,
+          .house-conference-committees {
+            height: 100%;
+          }
+
         `}</style>
     </CommitteeLayout>
         );
@@ -143,7 +146,7 @@ function CommitteeArchivePage(props) {
 
 export async function getStaticPaths() {
   let paths = [
-          "/archives/2019", "/archives/2018"
+          "/archives/2019", "/archives/2018", "/archives/2018ss1", "/archives/2017", "/archives/2016"
       ];
   return {
     paths,
