@@ -2,7 +2,6 @@ import React from "react";
 import Link from 'next/link';
 import { FaRegFilePdf } from 'react-icons/fa';
 import Dropdown from 'react-bootstrap/Dropdown';
-import { useRouter } from 'next/router'
 
 import * as sessionYears from '../../data/session_years.json';
 import {Context} from '../Utils/Context';
@@ -11,7 +10,6 @@ const currentSession = sessionYears.years.filter(year => year.active)[0];
 const pastSessions = sessionYears.years.filter(year => !year.active);
 
 const Navigator = () => {
-  const router = useRouter().pathname;
   return (
     <div className="navigator h-100 px-3 py-3">
       <h1 className="navigator-title mb-3 text-center">Committee Navigator</h1>
