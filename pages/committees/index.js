@@ -4,6 +4,7 @@ import Link from "next/link";
 import CommitteeLayout from '../../components/Committees/CommitteeLayout';
 import {Context} from "../../components/Utils/Context";
 import CommitteeListGroup from "../../components/Committees/CommitteeListGroup";
+import size from "../../components/Utils/WindowSize";
 
 class Committees extends React.Component {
   componentDidMount() {
