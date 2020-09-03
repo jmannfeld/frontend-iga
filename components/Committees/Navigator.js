@@ -18,10 +18,17 @@ const Navigator = () => {
                 {currentSession.name}
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                  {pastSessions.map(({ name }) => (
-                    <a className="dropdown-item" href="#" key={name}>
-                      <Dropdown.Item href="#/action-1">{name}</Dropdown.Item>
-                    </a>
+                    <Dropdown.Item>
+                        <Link href="/committees">
+                            <a>2020 Session</a>
+                        </Link>
+                    </Dropdown.Item>
+                  {pastSessions.map(({ name, year }) => (
+                      <Dropdown.Item>
+                        <Link href="/archives/[year]" as={`/archives/${year}`}>
+                            <a>{name}</a>
+                        </Link>
+                    </Dropdown.Item>
                   ))}
               </Dropdown.Menu>
           </Dropdown>
@@ -49,17 +56,17 @@ const Navigator = () => {
                      context.setCommitteeFilter("Senate");
                    }}>Senate</a>
               </Link>
-              <Link href="/committees/interim">
-                <a className={`dropdown-item ${context.state.committee_active === "interim" ? "active": ""}`}
-                   onClick={(event) => {
-                      context.setCommitteeFilter("");
-                    }}>Interim</a>
-              </Link>
               <Link href="/committees/conference">
                 <a className={`dropdown-item ${context.state.committee_active === "conference" ? "active": ""}`}
                    onClick={(event) => {
                      context.setCommitteeFilter("");
                    }}>Conference</a>
+              </Link>
+              <Link href="/committees/interim">
+                <a className={`dropdown-item ${context.state.committee_active === "interim" ? "active": ""}`}
+                   onClick={(event) => {
+                      context.setCommitteeFilter("");
+                    }}>Interim</a>
               </Link>
               <Link href="/committees/grid">
                 <a className={`dropdown-item ${context.state.committee_active === "grid" ? "active": ""}`}

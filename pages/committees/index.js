@@ -1,8 +1,8 @@
 import React from "react";
+import Link from "next/link";
 
 import CommitteeLayout from '../../components/Committees/CommitteeLayout';
 import {Context} from "../../components/Utils/Context";
-import CommitteeList from "../../components/Committees/CommitteeList";
 import CommitteeListGroup from "../../components/Committees/CommitteeListGroup";
 
 const screen_width = screen.width;
@@ -19,6 +19,9 @@ class Committees extends React.Component {
           <div className="row">
             <div className="col-12">
               <h3 className="text-center">Standing Committees</h3>
+              <div className="committee-grid-btn mr-4">
+                <Link href="/committees/grid"><a className="btn btn-primary">Conference Committee Grid</a></Link>
+              </div>
             </div>
             <div className="col-6 d-flex">
               <Context.Consumer>
@@ -71,6 +74,12 @@ class Committees extends React.Component {
         <style jsx>{`
           .list {
             background-color: #c9cad8;
+          }
+          
+          .committee-grid-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
           }
         `}</style>
       </CommitteeLayout>
