@@ -13,7 +13,10 @@ const CommitteeLayout = props => {
       </Head>
       <div className="container-fluid content h-100 py-3">
         <div className="row h-100">
-          <div className={`${size.width > 1000 ? "col-2": ""}`}>
+          <div id="navigator_1" className="col-2">
+            <Navigator/>
+          </div>
+          <div id="navigator_2">
             <Navigator/>
           </div>
           <div className="col-10 px-3 py-3">{props.children}</div>
@@ -25,8 +28,18 @@ const CommitteeLayout = props => {
           background-color: white;
         }
         
-        @media only screen and (max-width: 600) {
+        #navigator_2 {
+          display: none;
+        }
+        
+        @media screen and (max-width: 1000px) {
+          #navigator_1 {
+            display: none;
+          }
           
+          #navigator_2 {
+            display: block;
+          }
         }
       `}</style>
     </>
