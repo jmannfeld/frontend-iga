@@ -157,7 +157,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params}) {
     // TODO: change this api url
-    const response = fetch(`http://localhost:3004/committees/${params.year}`);
+    const host = "https://us-central1-iga-check.cloudfunctions.net/archives/";
+    // const response = fetch(`http://localhost:3004/committees/${params.year}`);
+    const response = fetch(host + params.year);
     return response.then(response => response.json()).then(data => {
         return {
                 props: {
