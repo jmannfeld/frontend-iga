@@ -118,7 +118,7 @@ const Navbar = () => (
 
           <div className="standing-committees">
             <Link href="/committees/standing"><a className="dropdown-item">Standing</a></Link>
-              <div className="sub-dropdown dropdown-menu committee-tables">
+              <div id="standing-menu" className="sub-dropdown dropdown-menu committee-tables">
                   <table className="table table-striped house-committees">
                     <thead className="thead-light">
                       <tr><th scope="col"><h6>House</h6></th></tr>
@@ -159,7 +159,7 @@ const Navbar = () => (
           </div>
           <div className="interim-committees">
             <Link href="/committees/interim"><a className="dropdown-item">Interim</a></Link>
-              <ul className="sub-dropdown dropdown-menu list-group">
+              <ul id="interim-menu" className="sub-dropdown dropdown-menu list-group">
                 <Context.Consumer>
                   {(context) => (
                     context.state.interim_legislative_committees.map(({lpid, name}) => (
@@ -354,7 +354,18 @@ const Navbar = () => (
       .interim-committees li {
         padding: 1px;
         overflow: hidden;
+      }
+        
+      @media screen and (max-width: 1500px) {
+        #standing-menu {
+          left: 0%;
+          top: auto;
+        }
 
+        #interim-menu {
+          left: 0%;
+          top: auto;
+        }
       }
     `}</style>
 
