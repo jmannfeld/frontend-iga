@@ -1,5 +1,23 @@
 import React, {createContext} from "react";
 
+const namesort = (a, b) => {
+  let nameA = a.name.toUpperCase(); // ignore upper and lowercase
+  let nameB = b.name.toUpperCase(); // ignore upper and lowercase
+  if (nameA < nameB) {
+    return -1;
+  }
+  if (nameA > nameB) {
+    return 1;
+  }
+  return 0;
+};
+
+const conference_namesort = (a, b) => {
+  let nameA = parseInt(a.name.split(" ")[4]); // ignore upper and lowercase
+  let nameB = parseInt(b.name.split(" ")[4]); // ignore upper and lowercase
+  return nameA - nameB;
+};
+
 export const Context = createContext(null);
 
 export class Provider extends React.Component {
@@ -26,13 +44,17 @@ export class Provider extends React.Component {
           committees: committees,
           senate_standing_committees: committees.filter(
             committee => committee.type === "standing" && committee.chamber === "senate"
-          ),
+          ).sort(namesort),
           house_standing_committees: committees.filter(
             committee => committee.type === "standing" && committee.chamber === "house"
-          ),
-          interim_legislative_committees: committees.filter(committee => committee.type === "interim" && committee.non_lsa_staffed === false),
-          interim_other_committees: committees.filter(committee => committee.type === "interim" && committee.non_lsa_staffed === true),
-          conference_committees: committees.filter(committee => committee.type === "conference")
+          ).sort(namesort),
+          interim_legislative_committees: committees.filter(
+            committee => committee.type === "interim" && committee.non_lsa_staffed === false
+          ).sort(namesort),
+          interim_other_committees: committees.filter(
+            committee => committee.type === "interim" && committee.non_lsa_staffed === true
+          ).sort(namesort),
+          conference_committees: committees.filter(committee => committee.type === "conference").sort(conference_namesort)
         });
       })
       .catch((error) => {

@@ -49,17 +49,17 @@ const Navigator = () => {
                      context.setCommitteeFilter("Senate");
                    }}>Senate</a>
               </Link>
-              <Link href="/committees/interim">
-                <a className={`dropdown-item ${context.state.committee_active === "interim" ? "active": ""}`}
-                   onClick={(event) => {
-                      context.setCommitteeFilter("");
-                    }}>Interim</a>
-              </Link>
               <Link href="/committees/conference">
                 <a className={`dropdown-item ${context.state.committee_active === "conference" ? "active": ""}`}
                    onClick={(event) => {
                      context.setCommitteeFilter("");
                    }}>Conference</a>
+              </Link>
+              <Link href="/committees/interim">
+                <a className={`dropdown-item ${context.state.committee_active === "interim" ? "active": ""}`}
+                   onClick={(event) => {
+                      context.setCommitteeFilter("");
+                    }}>Interim</a>
               </Link>
               <Link href="/committees/grid">
                 <a className={`dropdown-item ${context.state.committee_active === "grid" ? "active": ""}`}
