@@ -20,7 +20,7 @@ function CommitteePage({ meetingsArr, committeeLpid }) {
     <CommitteeLayout>
       <div className="title-bar">
           <h1>
-              {"(" + committee_names.default[committeeLpid].chamber[0].toUpperCase() + ") "}
+              {committee_names.default[committeeLpid].chamber && "(" + committee_names.default[committeeLpid].chamber[0].toUpperCase() + ") "}
               {committee_names.default[committeeLpid].name}
           </h1>
         <div>
