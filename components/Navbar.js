@@ -122,37 +122,41 @@ const Navbar = () => (
               <thead className="thead-light">
                 <tr><th scope="col"><h6>House</h6></th></tr>
               </thead>
-              <Context.Consumer>
-                {(context) => (
-                  context.state.house_standing_committees.map(({ lpid, name}) => (
-                    <tr className="list-group-item-action">
-                      <td className="nav-item" key={lpid}>
-                        <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
-                          <a className="dropdown-item text-left">{name}</a>
-                        </Link>
-                      </td>
-                    </tr>
-                  ))
-                )}
-              </Context.Consumer>
+              <tbody>
+                <Context.Consumer>
+                  {(context) => (
+                    context.state.house_standing_committees.map(({ lpid, name}) => (
+                      <tr className="list-group-item-action" key={lpid}>
+                        <td className="nav-item">
+                          <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
+                            <a className="dropdown-item text-left">{name}</a>
+                          </Link>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </Context.Consumer>
+              </tbody>
             </table>
             <table className="table table-striped senate-committees">
               <thead className="thead-light">
                 <tr><th scope="col"><h6>Senate</h6></th></tr>
               </thead>
-              <Context.Consumer>
-                {(context) => (
-                  context.state.senate_standing_committees.map(({ lpid, name}) => (
-                    <tr className="list-group-item-action">
-                      <td className="nav-item" key={lpid}>
-                        <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
-                          <a className="dropdown-item text-left">{name}</a>
-                        </Link>
-                      </td>
-                    </tr>
-                  ))
-                )}
-              </Context.Consumer>
+              <tbody>
+                <Context.Consumer>
+                  {(context) => (
+                    context.state.senate_standing_committees.map(({ lpid, name}) => (
+                      <tr className="list-group-item-action" key={lpid}>
+                        <td className="nav-item">
+                          <Link href="/committees/[lpid]" as={`/committees/${lpid}`}>
+                            <a className="dropdown-item text-left">{name}</a>
+                          </Link>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </Context.Consumer>
+              </tbody>
             </table>
           </div>
         </div>
@@ -353,6 +357,7 @@ const Navbar = () => (
       .interim-committees li {
         padding: 1px;
         overflow: hidden;
+        background-color: white;
       }
         
       @media screen and (max-width: 800px) {

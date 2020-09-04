@@ -24,7 +24,7 @@ const Navigator = () => {
                         </Link>
                     </Dropdown.Item>
                   {pastSessions.map(({ name, year }) => (
-                      <Dropdown.Item>
+                      <Dropdown.Item key={year}>
                         <Link href="/archives/[year]" as={`/archives/${year}`}>
                             <a>{name}</a>
                         </Link>
