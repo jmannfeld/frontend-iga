@@ -19,9 +19,7 @@
                 "/legislative/2020/legislators/legislator_ron_alting_538/"
               ],
               "sponsors": [],
-              "authors_names": [
-                "Sen. Ron Alting"
-              ],
+              "authors_names": ["Sen. Ron Alting"],
               "sponsors_names": [],
               "url": "/legislative/2020/bills/senate/185",
               "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
@@ -32,9 +30,7 @@
                 "/legislative/2020/legislators/legislator_james_buck_124/"
               ],
               "sponsors": [],
-              "authors_names": [
-                "Sen. James Buck"
-              ],
+              "authors_names": ["Sen. James Buck"],
               "sponsors_names": [],
               "url": "/legislative/2020/bills/senate/218",
               "status": "In Committee"
@@ -53,9 +49,7 @@
                 "/legislative/2020/legislators/legislator_james_tomes_1041/"
               ],
               "sponsors": [],
-              "authors_names": [
-                "Sen. James Tomes"
-              ],
+              "authors_names": ["Sen. James Tomes"],
               "sponsors_names": [],
               "url": "/legislative/2020/bills/senate/233",
               "status": "DO PASS Yeas: 7; Nays: 2; (Voted on Jan, 22)"
@@ -66,9 +60,7 @@
                 "/legislative/2020/legislators/legislator_philip_boots_865/"
               ],
               "sponsors": [],
-              "authors_names": [
-                "Sen. Philip Boots"
-              ],
+              "authors_names": ["Sen. Philip Boots"],
               "sponsors_names": [],
               "url": "/legislative/2020/bills/senate/145",
               "status": "In Committee"
@@ -175,9 +167,7 @@
             "/legislative/2020/legislators/legislator_ron_alting_538/"
           ],
           "sponsors": [],
-          "authors_names": [
-            "Sen. Ron Alting"
-          ],
+          "authors_names": ["Sen. Ron Alting"],
           "sponsors_names": [],
           "url": "/legislative/2020/bills/senate/185",
           "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
@@ -188,9 +178,7 @@
             "/legislative/2020/legislators/legislator_james_buck_124/"
           ],
           "sponsors": [],
-          "authors_names": [
-            "Sen. James Buck"
-          ],
+          "authors_names": ["Sen. James Buck"],
           "sponsors_names": [],
           "url": "/legislative/2020/bills/senate/218",
           "status": "In Committee"
@@ -209,9 +197,7 @@
             "/legislative/2020/legislators/legislator_ron_alting_538/"
           ],
           "sponsors": [],
-          "authors_names": [
-            "Sen. Ron Alting"
-          ],
+          "authors_names": ["Sen. Ron Alting"],
           "sponsors_names": [],
           "url": "/legislative/2020/bills/senate/233",
           "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
@@ -222,9 +208,7 @@
             "/legislative/2020/legislators/legislator_james_buck_124/"
           ],
           "sponsors": [],
-          "authors_names": [
-            "Sen. James Buck"
-          ],
+          "authors_names": ["Sen. James Buck"],
           "sponsors_names": [],
           "url": "/legislative/2020/bills/senate/145",
           "status": "In Committee"
@@ -237,19 +221,13 @@
       "url": "/legislative/2020/bills/house/1119",
       "name": "HB 1119",
       "description": "Regulation of pesticide use and application.",
-      "authors": [
-        "/legislative/2020/legislators/legislator_don_lehe_698/"
-      ],
+      "authors": ["/legislative/2020/legislators/legislator_don_lehe_698/"],
       "sponsors": [
         "/legislative/2020/legislators/legislator_jean_leising_136/"
       ],
       "dead": 1,
-      "authors_names": [
-        "Rep. Don Lehe"
-      ],
-      "sponsors_names": [
-        "Sen. Jean Leising"
-      ]
+      "authors_names": ["Rep. Don Lehe"],
+      "sponsors_names": ["Sen. Jean Leising"]
     },
     {
       "url": "/legislative/2020/bills/senate/185",
@@ -269,22 +247,16 @@
         "Sen. Mike Bohacek",
         "Sen. Blake Doriot"
       ],
-      "sponsors_names": [
-        "Rep. Sharon Negele"
-      ]
+      "sponsors_names": ["Rep. Sharon Negele"]
     },
     {
       "url": "/legislative/2020/bills/senate/218",
       "name": "SB 218",
       "description": "Chicken hens.",
-      "authors": [
-        "/legislative/2020/legislators/legislator_james_buck_124/"
-      ],
+      "authors": ["/legislative/2020/legislators/legislator_james_buck_124/"],
       "sponsors": [],
       "dead": 1,
-      "authors_names": [
-        "Sen. James Buck"
-      ],
+      "authors_names": ["Sen. James Buck"],
       "sponsors_names": []
     },
     {
@@ -295,17 +267,10 @@
         "/legislative/2020/legislators/legislator_philip_boots_865/",
         "/legislative/2020/legislators/legislator_james_tomes_1041/"
       ],
-      "sponsors": [
-        "/legislative/2020/legislators/legislator_beau_baird_1/"
-      ],
+      "sponsors": ["/legislative/2020/legislators/legislator_beau_baird_1/"],
       "dead": 1,
-      "authors_names": [
-        "Sen. Philip Boots",
-        "Sen. James Tomes"
-      ],
-      "sponsors_names": [
-        "Rep. Beau Baird"
-      ]
+      "authors_names": ["Sen. Philip Boots", "Sen. James Tomes"],
+      "sponsors_names": ["Rep. Beau Baird"]
     },
     {
       "url": "/legislative/2020/bills/senate/438",
@@ -315,17 +280,10 @@
         "/legislative/2020/legislators/legislator_jean_leising_136/",
         "/legislative/2020/legislators/legislator_susan_glick_1048/"
       ],
-      "sponsors": [
-        "/legislative/2020/legislators/legislator_don_lehe_698/"
-      ],
+      "sponsors": ["/legislative/2020/legislators/legislator_don_lehe_698/"],
       "dead": 0,
-      "authors_names": [
-        "Sen. Jean Leising",
-        "Sen. Susan Glick"
-      ],
-      "sponsors_names": [
-        "Rep. Don Lehe"
-      ]
+      "authors_names": ["Sen. Jean Leising", "Sen. Susan Glick"],
+      "sponsors_names": ["Rep. Don Lehe"]
     }
   ],
   "2019_session_committees": [
@@ -5166,6 +5124,82 @@
       "chamber": "",
       "type": "interim",
       "non_lsa_staffed": false
+    }
+  ],
+  "meetingDetails": [
+    {
+      "lpid": "bd7f6a43-2112-428f-bd93-2f6d5a0cee84",
+      "date": "Jan. 10, 2020",
+      "time": "Upon Adjournment of Session",
+      "location": "Room 200",
+      "bills": [
+        {
+          "name": "SB 166",
+          "authors": [
+            "/legislative/2020/legislators/legislator_ron_alting_538/"
+          ],
+          "sponsors": [],
+          "authors_names": ["Sen. Ron Alting"],
+          "sponsors_names": [],
+          "url": "/legislative/2020/bills/senate/185",
+          "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
+        },
+        {
+          "name": "SB 177",
+          "authors": [
+            "/legislative/2020/legislators/legislator_ron_alting_538/"
+          ],
+          "sponsors": [],
+          "authors_names": ["Sen. Sue Baker"],
+          "sponsors_names": [],
+          "url": "/legislative/2020/bills/senate/185",
+          "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
+        }
+      ]
+    },
+    {
+      "lpid": "fhdsalfjdskfhasjdkfhasjdkfdsjkfhdsjfhdsk",
+      "date": "Jan. 23, 2020",
+      "time": "10:00 AM",
+      "location": "Room 130",
+      "bills": [
+        {
+          "name": "SB 185",
+          "authors": [
+            "/legislative/2020/legislators/legislator_ron_alting_538/"
+          ],
+          "sponsors": [],
+          "authors_names": ["Sen. Ron Alting"],
+          "sponsors_names": [],
+          "url": "/legislative/2020/bills/senate/185",
+          "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
+        },
+        {
+          "name": "SB 200",
+          "authors": [
+            "/legislative/2020/legislators/legislator_ron_alting_538/"
+          ],
+          "sponsors": [],
+          "authors_names": ["Sen. Ron Alting"],
+          "sponsors_names": [],
+          "url": "/legislative/2020/bills/senate/185",
+          "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
+        }
+      ]
+    }
+  ],
+  "getMeetings": [
+    {
+      "lpid": "bd7f6a43-2112-428f-bd93-2f6d5a0cee84",
+      "date": "Jan. 23 2020",
+      "time": "10:00 AM",
+      "location": "Room 130"
+    },
+    {
+      "lpid": "fhdsalfjdskfhasjdkfhasjdkfdsjkfhdsjfhdsk",
+      "date": "Jan. 27 2020",
+      "time": "12:00 PM",
+      "location": "Senate Chamber"
     }
   ]
 }
