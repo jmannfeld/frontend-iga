@@ -9,7 +9,6 @@ function MembersTab( committeeLpid ) {
     const IMAGE_ENDPOINTS = "https://igalegislators.s3.us-east-2.amazonaws.com/member_images/";
 
     useEffect(() => {
-        console.log(committeeLpid.committeeLpid);
         const host = "https://iaj822wghd.execute-api.us-east-1.amazonaws.com/test/getMembers?cmte_lpid=";
         // const response = fetch(`http://localhost:3004/committees/${params.year}`);
         const response = fetch(host + committeeLpid.committeeLpid);
@@ -35,7 +34,8 @@ function MembersTab( committeeLpid ) {
         <div className="row">
 
 
-        {
+
+        {members["type_chair"] &&
           members["type_chair"].map(
             ({
               holderid,
@@ -60,7 +60,7 @@ function MembersTab( committeeLpid ) {
             )
           )
         }
-        {
+        { members["type_rm"] &&
           members["type_rm"].map(
             ({
               holderid,
@@ -85,7 +85,7 @@ function MembersTab( committeeLpid ) {
             )
           )
           }
-            {
+            { members["type_majority_normalmember"] &&
                 members["type_majority_normalmember"].map(
                 ({
                   holderid,
@@ -111,7 +111,7 @@ function MembersTab( committeeLpid ) {
               )
             }
 
-                    {
+                    { members["type_rmm"] &&
           members["type_rmm"].map(
             ({
               holderid,
@@ -137,7 +137,7 @@ function MembersTab( committeeLpid ) {
           )
           }
 
-                  {
+                  { members["type_minority_normalmember"] &&
           members["type_minority_normalmember"].map(
             ({
               holderid,
