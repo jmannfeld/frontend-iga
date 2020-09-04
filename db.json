@@ -5138,22 +5138,22 @@
           "authors": [
             "/legislative/2020/legislators/legislator_ron_alting_538/"
           ],
-          "sponsors": [],
+          "sponsors": ["/legislative/2020/legislators/legislator_jack_jordan_1"],
           "authors_names": ["Sen. Ron Alting"],
-          "sponsors_names": [],
-          "url": "/legislative/2020/bills/senate/185",
+          "sponsors_names": ["Rep. Jack Jordan"],
+          "url": "/legislative/2020/bills/senate/166",
           "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
         },
         {
           "name": "SB 177",
           "authors": [
-            "/legislative/2020/legislators/legislator_ron_alting_538/"
+            "/legislative/2020/legislators/legislator_jeff_raatz_1/"
           ],
-          "sponsors": [],
-          "authors_names": ["Sen. Sue Baker"],
-          "sponsors_names": [],
-          "url": "/legislative/2020/bills/senate/185",
-          "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
+          "sponsors": ["/legislative/2020/legislators/legislator_timothy_brown_220"],
+          "authors_names": ["Sen. Jeff Raatz"],
+          "sponsors_names": ["Rep. Timothy Brown"],
+          "url": "/legislative/2020/bills/senate/177",
+          "status": "DO PASS Yeas: 3; Nays: 6; (Voted on Jan, 16)"
         }
       ]
     },
@@ -5168,9 +5168,11 @@
           "authors": [
             "/legislative/2020/legislators/legislator_ron_alting_538/"
           ],
-          "sponsors": [],
+          "sponsors": ["/legislative/2020/legislators/legislator_timothy_brown_220"],
           "authors_names": ["Sen. Ron Alting"],
-          "sponsors_names": [],
+          "sponsors_names": [
+            "Rep. Timothy Brown"
+          ],
           "url": "/legislative/2020/bills/senate/185",
           "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
         },
@@ -5179,11 +5181,11 @@
           "authors": [
             "/legislative/2020/legislators/legislator_ron_alting_538/"
           ],
-          "sponsors": [],
+          "sponsors": ["/legislative/2020/legislators/legislator_jack_jordan_1"],
           "authors_names": ["Sen. Ron Alting"],
-          "sponsors_names": [],
+          "sponsors_names": ["Rep. Jack Jordan"],
           "url": "/legislative/2020/bills/senate/185",
-          "status": "DO PASS Yeas: 9; Nays: 0; (Voted on Jan, 16)"
+          "status": "DO PASS Yeas: 3; Nays: 6; (Voted on Jan, 13)"
         }
       ]
     }
@@ -5191,13 +5193,13 @@
   "getMeetings": [
     {
       "lpid": "bd7f6a43-2112-428f-bd93-2f6d5a0cee84",
-      "date": "Jan. 23 2020",
+      "date": "Jan. 23, 2020",
       "time": "10:00 AM",
       "location": "Room 130"
     },
     {
       "lpid": "fhdsalfjdskfhasjdkfhasjdkfdsjkfhdsjfhdsk",
-      "date": "Jan. 27 2020",
+      "date": "Jan. 27, 2020",
       "time": "12:00 PM",
       "location": "Senate Chamber"
     }
