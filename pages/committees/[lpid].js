@@ -8,6 +8,8 @@ import * as agriculture from '../../data/agriculture.json';
 import CommitteeLayout from '../../components/Committees/CommitteeLayout';
 import TabSwitcher from '../../components/Committees/TabSwitcher';
 
+import * as committee_names from '../../data/committees_names.json';
+
 function CommitteePage({ meetingsArr, committeeLpid }) {
   const router = useRouter();
   if (router.isFallback) {
@@ -17,14 +19,10 @@ function CommitteePage({ meetingsArr, committeeLpid }) {
   return (
     <CommitteeLayout>
       <div className="title-bar">
-        <Context.Consumer>
-          {context => (
-            <h1>
-              Senate
-              {/* ({chamber.toUpperCase()[0]}) {committeeName} */}
-            </h1>
-          )}
-        </Context.Consumer>
+          <h1>
+              {"(" + committee_names.default[committeeLpid].chamber[0].toUpperCase() + ") "}
+              {committee_names.default[committeeLpid].name}
+          </h1>
         <div>
           <IconContext.Provider
             value={{ size: '2.25em', className: 'meeting-pills' }}
